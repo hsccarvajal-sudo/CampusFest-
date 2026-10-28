@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<mxfile host="app.diagrams.net" modified="2026-10-28T03:18:00.000-05:00" agent="CampusFest - Unillanos" version="24.8.6" type="device">
+  <diagram name="01 - Casos de uso / Estudiante" id="imported_11_0">
+    <mxGraphModel dx="1800" dy="1140" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1510" pageHeight="1100" math="0" shadow="0" background="#FFFFFF">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="t0001" parent="1" vertex="1" value="CAMPUSFEST  |  12 - Casos de uso / Estudiante" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontColor=#1A1A1A;fontSize=23;fontFamily=Arial;fontStyle=1;">
+          <mxGeometry x="38" y="14" width="1440" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="t0002" parent="1" vertex="1" value="UNILLANOS  ·  Ingeniería de Software I  ·  Análisis de objetos (Schach, capítulo 13)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontColor=#555555;fontSize=14;fontFamily=Arial;">
+          <mxGeometry x="38" y="60" width="1440" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="n0003" parent="1" vertex="1" value="Estudiante" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;labelPerimeter=1;fontSize=20;fontColor=#1A1A1A;strokeColor=#1A1A1A;strokeWidth=2;">
+          <mxGeometry x="130" y="420" width="65" height="105" as="geometry"/>
+        </mxCell>
+        <mxCell id="frame0004" parent="1" vertex="1" value="CampusFest (uso)" style="rounded=0;html=1;whiteSpace=wrap;strokeColor=#1A1A1A;fillColor=none;strokeWidth=2;align=center;verticalAlign=top;spacingTop=18;fontSize=19;fontStyle=1;fontColor=#1A1A1A;">
+          <mxGeometry x="345" y="115" width="1060" height="905" as="geometry"/>
+        </mxCell>
+        <mxCell id="n0005" parent="1" vertex="1" value="Consultar cupos" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#1A1A1A;fillColor=#FFFFFF;strokeWidth=2;fontSize=18;fontColor=#1A1A1A;fontFamily=Arial;align=center;verticalAlign=middle;">
+          <mxGeometry x="455" y="190" width="230" height="75" as="geometry"/>
+        </mxCell>
+        <mxCell id="n0006" parent="1" vertex="1" value="Reservar" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#1A1A1A;fillColor=#FFFFFF;strokeWidth=2;fontSize=18;fontColor=#1A1A1A;fontFamily=Arial;align=center;verticalAlign=middle;">
+          <mxGeometry x="455" y="350" width="230" height="75" as="geometry"/>
+        </mxCell>
+        <mxCell id="n0007" parent="1" vertex="1" value="Confirmar reserva" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#1A1A1A;fillColor=#FFFFFF;strokeWidth=2;fontSize=18;fontColor=#1A1A1A;fontFamily=Arial;align=center;verticalAlign=middle;">
+          <mxGeometry x="455" y="510" width="230" height="75" as="geometry"/>
+        </mxCell>
+        <mxCell id="n0008" parent="1" vertex="1" value="Cancelar reserva" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#1A1A1A;fillColor=#FFFFFF;strokeWidth=2;fontSize=18;fontColor=#1A1A1A;fontFamily=Arial;align=center;verticalAlign=middle;">
+          <mxGeometry x="455" y="670" width="230" height="75" as="geometry"/>
+        </mxCell>
+        <mxCell id="n0009" parent="1" vertex="1" value="Registrarse (asistencia)" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#1A1A1A;fillColor=#FFFFFF;strokeWidth=2;fontSize=18;fontColor=#1A1A1A;fontFamily=Arial;align=center;verticalAlign=middle;">
+          <mxGeometry x="455" y="830" width="230" height="75" as="geometry"/>
+        </mxCell>
+        <mxCell id="n0010" parent="1" vertex="1" value="Consultar eventos" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#1A1A1A;fillColor=#FFFFFF;strokeWidth=2;fontSize=18;fontColor=#1A1A1A;fontFamily=Arial;align=center;verticalAlign=middle;">
+          <mxGeometry x="1045" y="505" width="235" height="75" as="geometry"/>
+        </mxCell>
+        <mxCell id="e0011" parent="1" edge="1" style="html=1;rounded=0;edgeStyle=none;strokeColor=#FF00FF;strokeWidth=2.5;endArrow=none;startArrow=none;strokeColor=#1A1A1A;endArrow=classic;endFill=1;" source="n0003" target="n0005">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e0012" parent="1" edge="1" style="html=1;rounded=0;edgeStyle=none;strokeColor=#FF00FF;strokeWidth=2.5;endArrow=none;startArrow=none;strokeColor=#1A1A1A;endArrow=classic;endFill=1;dashed=1;dashPattern=5 4;fontColor=#1A1A1A;fontSize=15;labelBackgroundColor=#FFFFFF;" value="«include»" source="n0005" target="n0010">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e0013" parent="1" edge="1" style="html=1;rounded=0;edgeStyle=none;strokeColor=#FF00FF;strokeWidth=2.5;endArrow=none;startArrow=none;strokeColor=#1A1A1A;endArrow=classic;endFill=1;" source="n0003" target="n0006">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e0014" parent="1" edge="1" style="html=1;rounded=0;edgeStyle=none;strokeColor=#FF00FF;strokeWidth=2.5;endArrow=none;startArrow=none;strokeColor=#1A1A1A;endArrow=classic;endFill=1;dashed=1;dashPattern=5 4;fontColor=#1A1A1A;fontSize=15;labelBackgroundColor=#FFFFFF;" value="«include»" source="n0006" target="n0010">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e0015" parent="1" edge="1" style="html=1;rounded=0;edgeStyle=none;strokeColor=#FF00FF;strokeWidth=2.5;endArrow=none;startArrow=none;strokeColor=#1A1A1A;endArrow=classic;endFill=1;" source="n0003" target="n0007">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e0016" parent="1" edge="1" style="html=1;rounded=0;edgeStyle=none;strokeColor=#FF00FF;strokeWidth=2.5;endArrow=none;startArrow=none;strokeColor=#1A1A1A;endArrow=classic;endFill=1;dashed=1;dashPattern=5 4;fontColor=#1A1A1A;fontSize=15;labelBackgroundColor=#FFFFFF;" value="«include»" source="n0007" target="n0010">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e0017" parent="1" edge="1" style="html=1;rounded=0;edgeStyle=none;strokeColor=#FF00FF;strokeWidth=2.5;endArrow=none;startArrow=none;strokeColor=#1A1A1A;endArrow=classic;endFill=1;" source="n0003" target="n0008">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e0018" parent="1" edge="1" style="html=1;rounded=0;edgeStyle=none;strokeColor=#FF00FF;strokeWidth=2.5;endArrow=none;startArrow=none;strokeColor=#1A1A1A;endArrow=classic;endFill=1;dashed=1;dashPattern=5 4;fontColor=#1A1A1A;fontSize=15;labelBackgroundColor=#FFFFFF;" value="«include»" source="n0008" target="n0010">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e0019" parent="1" edge="1" style="html=1;rounded=0;edgeStyle=none;strokeColor=#FF00FF;strokeWidth=2.5;endArrow=none;startArrow=none;strokeColor=#1A1A1A;endArrow=classic;endFill=1;" source="n0003" target="n0009">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e0020" parent="1" edge="1" style="html=1;rounded=0;edgeStyle=none;strokeColor=#FF00FF;strokeWidth=2.5;endArrow=none;startArrow=none;strokeColor=#1A1A1A;endArrow=classic;endFill=1;dashed=1;dashPattern=5 4;fontColor=#1A1A1A;fontSize=15;labelBackgroundColor=#FFFFFF;" value="«include»" source="n0009" target="n0010">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="t0021" parent="1" vertex="1" value="Fuente: CampusFest, guía p. 2. Se reproducen cinco casos de uso del estudiante con «include» hacia Consultar eventos." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontColor=#555555;fontSize=16;fontFamily=Arial;">
+          <mxGeometry x="38" y="1033" width="1438" height="50" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="02 - Casos de uso / Organización" id="imported_12_1">
+    <mxGraphModel dx="1800" dy="1140" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1510" pageHeight="1100" math="0" shadow="0" background="#FFFFFF">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="t0001" parent="1" vertex="1" value="CAMPUSFEST  |  13 - Casos de uso / Organización" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontColor=#1A1A1A;fontSize=23;fontFamily=Arial;fontStyle=1;">
+          <mxGeometry x="38" y="14" width="1440" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="t0002" parent="1" vertex="1" value="UNILLANOS  ·  Ingeniería de Software I  ·  Análisis de objetos (Schach, capítulo 13)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontColor=#555555;fontSize=14;fontFamily=Arial;">
+          <mxGeometry x="38" y="60" width="1440" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="n0003" parent="1" vertex="1" value="Organizador" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;labelPerimeter=1;fontSize=20;fontColor=#1A1A1A;strokeColor=#1A1A1A;strokeWidth=2;">
+          <mxGeometry x="130" y="350" width="65" height="105" as="geometry"/>
+        </mxCell>
+        <mxCell id="n0004" parent="1" vertex="1" value="10 min de una reserva" style="shape=mxgraph.ios7.icons.clock;html=1;verticalLabelPosition=bottom;verticalAlign=top;fontSize=18;strokeColor=#1A1A1A;strokeWidth=3;fillColor=#FFFFFF;">
+          <mxGeometry x="150" y="820" width="75" height="75" as="geometry"/>
+        </mxCell>
+        <mxCell id="frame0005" parent="1" vertex="1" value="CampusFest (Organización)" style="rounded=0;html=1;whiteSpace=wrap;strokeColor=#1A1A1A;fillColor=none;strokeWidth=2;align=center;verticalAlign=top;spacingTop=18;fontSize=19;fontStyle=1;fontColor=#1A1A1A;">
+          <mxGeometry x="345" y="115" width="1060" height="905" as="geometry"/>
+        </mxCell>
+        <mxCell id="n0006" parent="1" vertex="1" value="Gestionar un evento" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#1A1A1A;fillColor=#FFFFFF;strokeWidth=2;fontSize=18;fontColor=#1A1A1A;fontFamily=Arial;align=center;verticalAlign=middle;">
+          <mxGeometry x="455" y="205" width="270" height="75" as="geometry"/>
+        </mxCell>
+        <mxCell id="n0007" parent="1" vertex="1" value="Generar reporte de reservas" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#1A1A1A;fillColor=#FFFFFF;strokeWidth=2;fontSize=18;fontColor=#1A1A1A;fontFamily=Arial;align=center;verticalAlign=middle;">
+          <mxGeometry x="455" y="385" width="270" height="75" as="geometry"/>
+        </mxCell>
+        <mxCell id="n0008" parent="1" vertex="1" value="Generar reporte de asistencia" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#1A1A1A;fillColor=#FFFFFF;strokeWidth=2;fontSize=18;fontColor=#1A1A1A;fontFamily=Arial;align=center;verticalAlign=middle;">
+          <mxGeometry x="455" y="565" width="270" height="75" as="geometry"/>
+        </mxCell>
+        <mxCell id="n0009" parent="1" vertex="1" value="Cancelar reserva" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#1A1A1A;fillColor=#FFFFFF;strokeWidth=2;fontSize=18;fontColor=#1A1A1A;fontFamily=Arial;align=center;verticalAlign=middle;">
+          <mxGeometry x="455" y="825" width="270" height="75" as="geometry"/>
+        </mxCell>
+        <mxCell id="n0010" parent="1" vertex="1" value="Consultar eventos" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#1A1A1A;fillColor=#FFFFFF;strokeWidth=2;fontSize=18;fontColor=#1A1A1A;fontFamily=Arial;align=center;verticalAlign=middle;">
+          <mxGeometry x="1050" y="500" width="235" height="75" as="geometry"/>
+        </mxCell>
+        <mxCell id="e0011" parent="1" edge="1" style="html=1;rounded=0;edgeStyle=none;strokeColor=#FF00FF;strokeWidth=2.5;endArrow=none;startArrow=none;strokeColor=#1A1A1A;endArrow=classic;endFill=1;" source="n0003" target="n0006">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e0012" parent="1" edge="1" style="html=1;rounded=0;edgeStyle=none;strokeColor=#FF00FF;strokeWidth=2.5;endArrow=none;startArrow=none;strokeColor=#1A1A1A;endArrow=classic;endFill=1;dashed=1;dashPattern=5 4;fontColor=#1A1A1A;fontSize=15;labelBackgroundColor=#FFFFFF;" value="«include»" source="n0006" target="n0010">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e0013" parent="1" edge="1" style="html=1;rounded=0;edgeStyle=none;strokeColor=#FF00FF;strokeWidth=2.5;endArrow=none;startArrow=none;strokeColor=#1A1A1A;endArrow=classic;endFill=1;" source="n0003" target="n0007">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e0014" parent="1" edge="1" style="html=1;rounded=0;edgeStyle=none;strokeColor=#FF00FF;strokeWidth=2.5;endArrow=none;startArrow=none;strokeColor=#1A1A1A;endArrow=classic;endFill=1;dashed=1;dashPattern=5 4;fontColor=#1A1A1A;fontSize=15;labelBackgroundColor=#FFFFFF;" value="«include»" source="n0007" target="n0010">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e0015" parent="1" edge="1" style="html=1;rounded=0;edgeStyle=none;strokeColor=#FF00FF;strokeWidth=2.5;endArrow=none;startArrow=none;strokeColor=#1A1A1A;endArrow=classic;endFill=1;" source="n0003" target="n0008">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e0016" parent="1" edge="1" style="html=1;rounded=0;edgeStyle=none;strokeColor=#FF00FF;strokeWidth=2.5;endArrow=none;startArrow=none;strokeColor=#1A1A1A;endArrow=classic;endFill=1;dashed=1;dashPattern=5 4;fontColor=#1A1A1A;fontSize=15;labelBackgroundColor=#FFFFFF;" value="«include»" source="n0008" target="n0010">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e0017" parent="1" edge="1" style="html=1;rounded=0;edgeStyle=none;strokeColor=#FF00FF;strokeWidth=2.5;endArrow=none;startArrow=none;strokeColor=#1A1A1A;endArrow=classic;endFill=1;" source="n0004" target="n0009">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e0018" parent="1" edge="1" style="html=1;rounded=0;edgeStyle=none;strokeColor=#FF00FF;strokeWidth=2.5;endArrow=none;startArrow=none;strokeColor=#1A1A1A;endArrow=classic;endFill=1;dashed=1;dashPattern=5 4;fontColor=#1A1A1A;fontSize=15;labelBackgroundColor=#FFFFFF;" value="«include»" source="n0009" target="n0010">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="t0019" parent="1" vertex="1" value="Fuente: CampusFest, guía p. 2. Tiempo es el disparador del caso Cancelar reserva tras 10 minutos." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontColor=#555555;fontSize=16;fontFamily=Arial;">
+          <mxGeometry x="38" y="1033" width="1438" height="50" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
