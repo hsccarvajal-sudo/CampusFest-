@@ -1,8 +1,8 @@
 # CampusFest — Ingeniería de Software I
 
-Entrega de análisis orientado a objetos basada en Stephen Schach, capítulo 13, la guía CampusFest de Unillanos y fotografías de las pizarras de clase.
+Entrega de análisis orientado a objetos basada en Stephen Schach, capítulo 13, la guía CampusFest de Unillanos.
 
-## Organización solicitada por el profesor
+## Organización creada
 
 ```text
 CampusFest/
