@@ -1,0 +1,472 @@
+<mxfile host="Electron" agent="CampusFest - Unillanos" pages="3">
+  <diagram id="collab_09_Reporte_Asistencia" name="01 - Colaboración sin mensajes">
+    <mxGraphModel dx="1925" dy="1071" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1980" pageHeight="1090" background="#FFFFFF" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="collab_09_Reporte_Asistencia_0001" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=23;fontColor=#1A1A1A;align=left;verticalAlign=middle;fontStyle=1;" value="CAMPUSFEST  |  Colaboración SIN mensajes — Generar reporte de asistencia" vertex="1">
+          <mxGeometry height="44" width="1915" x="35" y="15" as="geometry" />
+        </mxCell>
+        <mxCell id="collab_09_Reporte_Asistencia_0002" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=14;fontColor=#555555;align=left;verticalAlign=middle;" value="Ingeniería de Software I  ·  Análisis orientado a objetos  ·  Stephen Schach, cap. 13" vertex="1">
+          <mxGeometry height="28" width="1915" x="35" y="59" as="geometry" />
+        </mxCell>
+        <mxCell id="collab_09_Reporte_Asistencia_0003" parent="1" style="shape=umlActor;html=1;strokeColor=#1A1A1A;strokeWidth=2;fontColor=#1A1A1A;fontSize=19;fontFamily=Arial;verticalLabelPosition=bottom;verticalAlign=top;labelPerimeter=1;align=center;" value="Organizador" vertex="1">
+          <mxGeometry height="135" width="100" x="95" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="collab_09_Reporte_Asistencia_0004" parent="1" style="shape=umlBoundary;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF00FF;strokeWidth=3;fontColor=#1A1A1A;fontSize=18;fontFamily=Arial;align=center;verticalAlign=middle;" value="PantallaEventoOrganizador" vertex="1">
+          <mxGeometry height="150" width="225" x="375" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="collab_09_Reporte_Asistencia_0005" parent="1" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF00FF;strokeWidth=3;fontColor=#1A1A1A;fontSize=18;fontFamily=Arial;align=center;verticalAlign=middle;" value="GestiónAsistencia" vertex="1">
+          <mxGeometry height="158" width="220" x="820" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="collab_09_Reporte_Asistencia_0006" parent="1" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF00FF;strokeWidth=3;fontColor=#1A1A1A;fontSize=19;fontFamily=Arial;align=center;verticalAlign=middle;" value="Evento" vertex="1">
+          <mxGeometry height="155" width="190" x="1325" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="collab_09_Reporte_Asistencia_0007" parent="1" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF00FF;strokeWidth=3;fontColor=#1A1A1A;fontSize=19;fontFamily=Arial;align=center;verticalAlign=middle;" value="Asistencia" vertex="1">
+          <mxGeometry height="155" width="190" x="1325" y="545" as="geometry" />
+        </mxCell>
+        <mxCell id="collab_09_Reporte_Asistencia_0008" parent="1" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF00FF;strokeWidth=3;fontColor=#1A1A1A;fontSize=19;fontFamily=Arial;align=center;verticalAlign=middle;" value="Estudiante" vertex="1">
+          <mxGeometry height="155" width="190" x="1660" y="295" as="geometry" />
+        </mxCell>
+        <mxCell id="collab_09_Reporte_Asistencia_0009" parent="1" style="shape=umlBoundary;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF00FF;strokeWidth=3;fontColor=#1A1A1A;fontSize=18;fontFamily=Arial;align=center;verticalAlign=middle;" value="ReporteAsistencias" vertex="1">
+          <mxGeometry height="146" width="218" x="340" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="collab_09_Reporte_Asistencia_0010" edge="1" parent="1" source="collab_09_Reporte_Asistencia_0003" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.5;startArrow=none;endArrow=none;" target="collab_09_Reporte_Asistencia_0004">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="collab_09_Reporte_Asistencia_0011" edge="1" parent="1" source="collab_09_Reporte_Asistencia_0004" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.5;startArrow=none;endArrow=none;" target="collab_09_Reporte_Asistencia_0005">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="collab_09_Reporte_Asistencia_0012" edge="1" parent="1" source="collab_09_Reporte_Asistencia_0005" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.5;startArrow=none;endArrow=none;" target="collab_09_Reporte_Asistencia_0006">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="collab_09_Reporte_Asistencia_0013" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.5;startArrow=none;endArrow=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1420.0006478184278" y="272.1942500489125" as="sourcePoint" />
+            <mxPoint x="1420" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="collab_09_Reporte_Asistencia_0014" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.5;startArrow=none;endArrow=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1050" y="360" as="sourcePoint" />
+            <mxPoint x="1650" y="372.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="collab_09_Reporte_Asistencia_0015" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.5;startArrow=none;endArrow=none;" target="collab_09_Reporte_Asistencia_0009">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="900" y="450" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="collab_09_Reporte_Asistencia_0017" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=19;fontColor=#1A1A1A;align=left;verticalAlign=middle;fontStyle=1;" value="Participantes y enlaces de colaboración (sin numeración de mensajes)." vertex="1">
+          <mxGeometry height="45" width="1730" x="70" y="825" as="geometry" />
+        </mxCell>
+        <mxCell id="collab_09_Reporte_Asistencia_0018" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=17;fontColor=#1A1A1A;align=left;verticalAlign=middle;" value="MENSAJES 1–13.a/13.b de la pizarra (algunas direcciones de retorno reconstruidas)." vertex="1">
+          <mxGeometry height="60" width="1780" x="70" y="895" as="geometry" />
+        </mxCell>
+        <mxCell id="collab_09_Reporte_Asistencia_0019" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=15;fontColor=#555555;align=left;verticalAlign=middle;" value="Procedencia: Pizarra «Asistencia», reto 7; guía 11 hojas, p. 9. Mensajes fieles al texto suministrado.  |  Color de relaciones y clases: #FF00FF, según Schach fig. 13.63 y diagrama suministrado." vertex="1">
+          <mxGeometry height="75" width="1904" x="38" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="xMEDEVqRF9cw2QytVdnd-2" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.5;startArrow=none;endArrow=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1660" y="425" as="sourcePoint" />
+            <mxPoint x="1520" y="565" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xMEDEVqRF9cw2QytVdnd-4" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.5;startArrow=none;endArrow=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1530" y="210" as="sourcePoint" />
+            <mxPoint x="1710" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="communication_09_Reporte_Asistencia" name="02 - Comunicación con mensajes">
+    <mxGraphModel dx="1900" dy="1180" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1980" pageHeight="1800" background="#FFFFFF" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="communication_09_Reporte_Asistencia_0001" value="CAMPUSFEST  |  Comunicación CON mensajes — Generar reporte de asistencia" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=23;fontColor=#1A1A1A;align=left;verticalAlign=middle;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="35" y="15" width="1915" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="communication_09_Reporte_Asistencia_0002" value="Ingeniería de Software I  ·  Análisis orientado a objetos  ·  Stephen Schach, cap. 13" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=14;fontColor=#555555;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="35" y="59" width="1915" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="communication_09_Reporte_Asistencia_0003" value="Organizador" style="shape=umlActor;html=1;strokeColor=#1A1A1A;strokeWidth=2;fontColor=#1A1A1A;fontSize=19;fontFamily=Arial;verticalLabelPosition=bottom;verticalAlign=top;labelPerimeter=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="95" y="290" width="100" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="communication_09_Reporte_Asistencia_0004" value="PantallaEventoOrganizador" style="shape=umlBoundary;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF00FF;strokeWidth=3;fontColor=#1A1A1A;fontSize=18;fontFamily=Arial;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="375" y="290" width="225" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="communication_09_Reporte_Asistencia_0005" value="GestiónAsistencia" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF00FF;strokeWidth=3;fontColor=#1A1A1A;fontSize=18;fontFamily=Arial;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="820" y="280" width="220" height="158" as="geometry" />
+        </mxCell>
+        <mxCell id="communication_09_Reporte_Asistencia_0006" value="Evento" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF00FF;strokeWidth=3;fontColor=#1A1A1A;fontSize=19;fontFamily=Arial;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1325" y="105" width="190" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="communication_09_Reporte_Asistencia_0007" value="Asistencia" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF00FF;strokeWidth=3;fontColor=#1A1A1A;fontSize=19;fontFamily=Arial;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1325" y="545" width="190" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="communication_09_Reporte_Asistencia_0008" value="Estudiante" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF00FF;strokeWidth=3;fontColor=#1A1A1A;fontSize=19;fontFamily=Arial;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1660" y="295" width="190" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="communication_09_Reporte_Asistencia_0009" value="ReporteAsistencias" style="shape=umlBoundary;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF00FF;strokeWidth=3;fontColor=#1A1A1A;fontSize=18;fontFamily=Arial;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="835" y="680" width="218" height="146" as="geometry" />
+        </mxCell>
+        <mxCell id="communication_09_Reporte_Asistencia_0010" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.2;startArrow=none;endArrow=classic;endFill=1;fontColor=#1A1A1A;fontSize=16;labelBackgroundColor=#FFFFFF;" value="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="195" y="340.5" as="sourcePoint" />
+            <mxPoint x="375" y="348.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="communication_09_Reporte_Asistencia_0011" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.2;startArrow=none;endArrow=classic;endFill=1;fontColor=#1A1A1A;fontSize=16;labelBackgroundColor=#FFFFFF;" value="2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="348.0" as="sourcePoint" />
+            <mxPoint x="820" y="342.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="communication_09_Reporte_Asistencia_0012" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.2;startArrow=none;endArrow=classic;endFill=1;fontColor=#1A1A1A;fontSize=16;labelBackgroundColor=#FFFFFF;" value="3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1040" y="343.0" as="sourcePoint" />
+            <mxPoint x="1325" y="166.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="communication_09_Reporte_Asistencia_0013" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.2;startArrow=none;endArrow=open;dashed=1;dashPattern=7 4;fontColor=#1A1A1A;fontSize=16;labelBackgroundColor=#FFFFFF;" value="4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1325" y="166.5" as="sourcePoint" />
+            <mxPoint x="1040" y="343.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="communication_09_Reporte_Asistencia_0014" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.2;startArrow=none;endArrow=classic;endFill=1;fontColor=#1A1A1A;fontSize=16;labelBackgroundColor=#FFFFFF;" value="5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1040" y="344.0" as="sourcePoint" />
+            <mxPoint x="1325" y="607.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="communication_09_Reporte_Asistencia_0015" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.2;startArrow=none;endArrow=open;dashed=1;dashPattern=7 4;fontColor=#1A1A1A;fontSize=16;labelBackgroundColor=#FFFFFF;" value="6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1325" y="607.5" as="sourcePoint" />
+            <mxPoint x="1040" y="344.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="communication_09_Reporte_Asistencia_0016" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.2;startArrow=none;endArrow=classic;endFill=1;fontColor=#1A1A1A;fontSize=16;labelBackgroundColor=#FFFFFF;" value="7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1040" y="342.0" as="sourcePoint" />
+            <mxPoint x="1660" y="355.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="communication_09_Reporte_Asistencia_0017" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.2;startArrow=none;endArrow=open;dashed=1;dashPattern=7 4;fontColor=#1A1A1A;fontSize=16;labelBackgroundColor=#FFFFFF;" value="8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1660" y="355.5" as="sourcePoint" />
+            <mxPoint x="1040" y="342.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="communication_09_Reporte_Asistencia_0018" value="9  Calcular lista" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=15;fontColor=#FF00FF;align=left;verticalAlign=middle;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="468" width="310" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="communication_09_Reporte_Asistencia_0019" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.2;startArrow=none;endArrow=classic;endFill=1;fontColor=#1A1A1A;fontSize=16;labelBackgroundColor=#FFFFFF;" value="10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="947.0" y="438" as="sourcePoint" />
+            <mxPoint x="961.0" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="communication_09_Reporte_Asistencia_0020" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.2;startArrow=none;endArrow=open;dashed=1;dashPattern=7 4;fontColor=#1A1A1A;fontSize=16;labelBackgroundColor=#FFFFFF;" value="11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="961.0" y="680" as="sourcePoint" />
+            <mxPoint x="947.0" y="438" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="communication_09_Reporte_Asistencia_0021" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.2;startArrow=none;endArrow=open;dashed=1;dashPattern=7 4;fontColor=#1A1A1A;fontSize=16;labelBackgroundColor=#FFFFFF;" value="12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="342.0" as="sourcePoint" />
+            <mxPoint x="600" y="348.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="communication_09_Reporte_Asistencia_0022" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.2;startArrow=none;endArrow=open;dashed=1;dashPattern=7 4;fontColor=#1A1A1A;fontSize=16;labelBackgroundColor=#FFFFFF;" value="13.a">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="375" y="348.0" as="sourcePoint" />
+            <mxPoint x="195" y="340.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="communication_09_Reporte_Asistencia_0023" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.2;startArrow=none;endArrow=open;dashed=1;dashPattern=7 4;fontColor=#1A1A1A;fontSize=16;labelBackgroundColor=#FFFFFF;" value="13.b">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="835" y="753.0" as="sourcePoint" />
+            <mxPoint x="195" y="357.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="communication_09_Reporte_Asistencia_0024" value="MENSAJES NUMERADOS — escenario y retornos" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=21;fontColor=#1A1A1A;align=left;verticalAlign=middle;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="970" width="1820" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="communication_09_Reporte_Asistencia_0025" value="1 — Organizador selecciona reporte de asistencia de un evento" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=16;fontColor=#1A1A1A;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="66.0" y="1037" width="906.0" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="communication_09_Reporte_Asistencia_0026" value="2 — Solicitar reporte de asistencia de un evento" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=16;fontColor=#1A1A1A;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="66.0" y="1081" width="906.0" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="communication_09_Reporte_Asistencia_0027" value="3 — Solicitar información del evento" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=16;fontColor=#1A1A1A;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="66.0" y="1125" width="906.0" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="communication_09_Reporte_Asistencia_0028" value="4 — Retornar información del evento" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=16;fontColor=#1A1A1A;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="66.0" y="1169" width="906.0" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="communication_09_Reporte_Asistencia_0029" value="5 — Solicitar información de la asistencia" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=16;fontColor=#1A1A1A;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="66.0" y="1213" width="906.0" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="communication_09_Reporte_Asistencia_0030" value="6 — Retornar información de la asistencia" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=16;fontColor=#1A1A1A;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="66.0" y="1257" width="906.0" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="communication_09_Reporte_Asistencia_0031" value="7 — Solicitar información de estudiantes" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=16;fontColor=#1A1A1A;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="66.0" y="1301" width="906.0" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="communication_09_Reporte_Asistencia_0032" value="8 — Retornar información de estudiantes" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=16;fontColor=#1A1A1A;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="996.0" y="1037" width="906.0" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="communication_09_Reporte_Asistencia_0033" value="9 — Calcular listado de asistencias" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=16;fontColor=#1A1A1A;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="996.0" y="1081" width="906.0" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="communication_09_Reporte_Asistencia_0034" value="10 — Generar reporte de asistencia" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=16;fontColor=#1A1A1A;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="996.0" y="1125" width="906.0" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="communication_09_Reporte_Asistencia_0035" value="11 — Notificar «Reporte generado»" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=16;fontColor=#1A1A1A;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="996.0" y="1169" width="906.0" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="communication_09_Reporte_Asistencia_0036" value="12 — Notificar «Reporte generado»" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=16;fontColor=#1A1A1A;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="996.0" y="1213" width="906.0" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="communication_09_Reporte_Asistencia_0037" value="13.a — Mostrar «OK»" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=16;fontColor=#1A1A1A;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="996.0" y="1257" width="906.0" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="communication_09_Reporte_Asistencia_0038" value="13.b — Entregar reporte de asistencia" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=16;fontColor=#1A1A1A;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="996.0" y="1301" width="906.0" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="communication_09_Reporte_Asistencia_0039" value="MENSAJES 1–13.a/13.b de la pizarra (algunas direcciones de retorno reconstruidas).  |  Fuente: Pizarra «Asistencia», reto 7; guía 11 hojas, p. 9. Mensajes fieles al texto suministrado." style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=15;fontColor=#555555;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="38" y="1700" width="1904" height="75" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="sequence_09_Reporte_Asistencia" name="03 - Secuencia">
+    <mxGraphModel dx="1900" dy="1180" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2105" pageHeight="1964" background="#FFFFFF" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sequence_09_Reporte_Asistencia_0001" value="CAMPUSFEST  |  Secuencia — Generar reporte de asistencia" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=23;fontColor=#1A1A1A;align=left;verticalAlign=middle;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="35" y="15" width="2040" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="sequence_09_Reporte_Asistencia_0002" value="Ingeniería de Software I  ·  Análisis orientado a objetos  ·  Stephen Schach, cap. 13" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=14;fontColor=#555555;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="35" y="59" width="2040" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="sequence_09_Reporte_Asistencia_0003" value="Organizador" style="shape=umlActor;html=1;strokeColor=#1A1A1A;strokeWidth=2;fontColor=#1A1A1A;fontSize=19;fontFamily=Arial;verticalLabelPosition=bottom;verticalAlign=top;labelPerimeter=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="117" y="117" width="76" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="sequence_09_Reporte_Asistencia_0004" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.5;startArrow=none;endArrow=none;strokeColor=#555555;strokeWidth=1.5;dashed=1;dashPattern=5 5;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="155" y="230" as="sourcePoint" />
+            <mxPoint x="155" y="1438" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sequence_09_Reporte_Asistencia_0005" value="PantallaEventoOrganizador" style="rounded=0;html=1;whiteSpace=wrap;strokeColor=#FF00FF;strokeWidth=2;fillColor=#FFFFFF;fontColor=#1A1A1A;fontFamily=Arial;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="341" y="133" width="188" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="sequence_09_Reporte_Asistencia_0006" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.5;startArrow=none;endArrow=none;strokeColor=#555555;strokeWidth=1.5;dashed=1;dashPattern=5 5;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="435" y="230" as="sourcePoint" />
+            <mxPoint x="435" y="1438" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sequence_09_Reporte_Asistencia_0007" value="GestiónAsistencia" style="rounded=0;html=1;whiteSpace=wrap;strokeColor=#FF00FF;strokeWidth=2;fillColor=#FFFFFF;fontColor=#1A1A1A;fontFamily=Arial;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="621" y="133" width="188" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="sequence_09_Reporte_Asistencia_0008" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.5;startArrow=none;endArrow=none;strokeColor=#555555;strokeWidth=1.5;dashed=1;dashPattern=5 5;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="715" y="230" as="sourcePoint" />
+            <mxPoint x="715" y="1438" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sequence_09_Reporte_Asistencia_0009" value="Evento" style="rounded=0;html=1;whiteSpace=wrap;strokeColor=#FF00FF;strokeWidth=2;fillColor=#FFFFFF;fontColor=#1A1A1A;fontFamily=Arial;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="901" y="133" width="188" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="sequence_09_Reporte_Asistencia_0010" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.5;startArrow=none;endArrow=none;strokeColor=#555555;strokeWidth=1.5;dashed=1;dashPattern=5 5;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="995" y="230" as="sourcePoint" />
+            <mxPoint x="995" y="1438" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sequence_09_Reporte_Asistencia_0011" value="Asistencia" style="rounded=0;html=1;whiteSpace=wrap;strokeColor=#FF00FF;strokeWidth=2;fillColor=#FFFFFF;fontColor=#1A1A1A;fontFamily=Arial;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1181" y="133" width="188" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="sequence_09_Reporte_Asistencia_0012" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.5;startArrow=none;endArrow=none;strokeColor=#555555;strokeWidth=1.5;dashed=1;dashPattern=5 5;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1275" y="230" as="sourcePoint" />
+            <mxPoint x="1275" y="1438" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sequence_09_Reporte_Asistencia_0013" value="Estudiante" style="rounded=0;html=1;whiteSpace=wrap;strokeColor=#FF00FF;strokeWidth=2;fillColor=#FFFFFF;fontColor=#1A1A1A;fontFamily=Arial;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1461" y="133" width="188" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="sequence_09_Reporte_Asistencia_0014" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.5;startArrow=none;endArrow=none;strokeColor=#555555;strokeWidth=1.5;dashed=1;dashPattern=5 5;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1555" y="230" as="sourcePoint" />
+            <mxPoint x="1555" y="1438" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sequence_09_Reporte_Asistencia_0015" value="ReporteAsistencias" style="rounded=0;html=1;whiteSpace=wrap;strokeColor=#FF00FF;strokeWidth=2;fillColor=#FFFFFF;fontColor=#1A1A1A;fontFamily=Arial;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1741" y="133" width="188" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="sequence_09_Reporte_Asistencia_0016" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.5;startArrow=none;endArrow=none;strokeColor=#555555;strokeWidth=1.5;dashed=1;dashPattern=5 5;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1835" y="230" as="sourcePoint" />
+            <mxPoint x="1835" y="1438" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sequence_09_Reporte_Asistencia_0017" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.2;startArrow=none;endArrow=classic;endFill=1;fontColor=#1A1A1A;fontSize=16;labelBackgroundColor=#FFFFFF;" value="1 Seleccionar reporte">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="155" y="310" as="sourcePoint" />
+            <mxPoint x="435" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sequence_09_Reporte_Asistencia_0018" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.2;startArrow=none;endArrow=classic;endFill=1;fontColor=#1A1A1A;fontSize=16;labelBackgroundColor=#FFFFFF;" value="2 Pedir reporte">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="435" y="387" as="sourcePoint" />
+            <mxPoint x="715" y="387" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sequence_09_Reporte_Asistencia_0019" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.2;startArrow=none;endArrow=classic;endFill=1;fontColor=#1A1A1A;fontSize=16;labelBackgroundColor=#FFFFFF;" value="3 Datos evento">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="715" y="464" as="sourcePoint" />
+            <mxPoint x="995" y="464" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sequence_09_Reporte_Asistencia_0020" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.2;startArrow=none;endArrow=open;dashed=1;dashPattern=7 4;fontColor=#1A1A1A;fontSize=16;labelBackgroundColor=#FFFFFF;" value="4 Retornar evento">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="995" y="541" as="sourcePoint" />
+            <mxPoint x="715" y="541" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sequence_09_Reporte_Asistencia_0021" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.2;startArrow=none;endArrow=classic;endFill=1;fontColor=#1A1A1A;fontSize=16;labelBackgroundColor=#FFFFFF;" value="5 Datos asistencia">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="715" y="618" as="sourcePoint" />
+            <mxPoint x="1275" y="618" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sequence_09_Reporte_Asistencia_0022" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.2;startArrow=none;endArrow=open;dashed=1;dashPattern=7 4;fontColor=#1A1A1A;fontSize=16;labelBackgroundColor=#FFFFFF;" value="6 Retornar asistencia">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1275" y="695" as="sourcePoint" />
+            <mxPoint x="715" y="695" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sequence_09_Reporte_Asistencia_0023" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.2;startArrow=none;endArrow=classic;endFill=1;fontColor=#1A1A1A;fontSize=16;labelBackgroundColor=#FFFFFF;" value="7 Datos estudiantes">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="715" y="772" as="sourcePoint" />
+            <mxPoint x="1555" y="772" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sequence_09_Reporte_Asistencia_0024" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.2;startArrow=none;endArrow=open;dashed=1;dashPattern=7 4;fontColor=#1A1A1A;fontSize=16;labelBackgroundColor=#FFFFFF;" value="8 Retornar estudiantes">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1555" y="849" as="sourcePoint" />
+            <mxPoint x="715" y="849" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sequence_09_Reporte_Asistencia_0025" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.5;startArrow=none;endArrow=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="715" y="926" as="sourcePoint" />
+            <mxPoint x="789" y="926" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sequence_09_Reporte_Asistencia_0026" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.5;startArrow=none;endArrow=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="789" y="926" as="sourcePoint" />
+            <mxPoint x="789" y="961" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sequence_09_Reporte_Asistencia_0027" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.2;startArrow=none;endArrow=classic;endFill=1;fontColor=#1A1A1A;fontSize=16;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="789" y="961" as="sourcePoint" />
+            <mxPoint x="715" y="961" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sequence_09_Reporte_Asistencia_0028" value="9 Calcular lista" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=15;fontColor=#1A1A1A;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="800" y="929" width="250" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="sequence_09_Reporte_Asistencia_0029" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.2;startArrow=none;endArrow=classic;endFill=1;fontColor=#1A1A1A;fontSize=16;labelBackgroundColor=#FFFFFF;" value="10 Generar reporte">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="715" y="1003" as="sourcePoint" />
+            <mxPoint x="1835" y="1003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sequence_09_Reporte_Asistencia_0030" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.2;startArrow=none;endArrow=open;dashed=1;dashPattern=7 4;fontColor=#1A1A1A;fontSize=16;labelBackgroundColor=#FFFFFF;" value="11 Reporte generado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1835" y="1080" as="sourcePoint" />
+            <mxPoint x="715" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sequence_09_Reporte_Asistencia_0031" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.2;startArrow=none;endArrow=open;dashed=1;dashPattern=7 4;fontColor=#1A1A1A;fontSize=16;labelBackgroundColor=#FFFFFF;" value="12 Reporte generado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="715" y="1157" as="sourcePoint" />
+            <mxPoint x="435" y="1157" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sequence_09_Reporte_Asistencia_0032" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.2;startArrow=none;endArrow=open;dashed=1;dashPattern=7 4;fontColor=#1A1A1A;fontSize=16;labelBackgroundColor=#FFFFFF;" value="13.a OK">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="435" y="1234" as="sourcePoint" />
+            <mxPoint x="155" y="1234" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sequence_09_Reporte_Asistencia_0033" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.2;startArrow=none;endArrow=open;dashed=1;dashPattern=7 4;fontColor=#1A1A1A;fontSize=16;labelBackgroundColor=#FFFFFF;" value="13.b Reporte">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1835" y="1311" as="sourcePoint" />
+            <mxPoint x="155" y="1311" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sequence_09_Reporte_Asistencia_0034" value="DETALLE DEL ORDEN DE MENSAJES" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=20;fontColor=#1A1A1A;align=left;verticalAlign=middle;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1451" width="2025" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="sequence_09_Reporte_Asistencia_0035" value="1. Organizador selecciona reporte de asistencia de un evento" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=16;fontColor=#1A1A1A;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="50.0" y="1508" width="968.5" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="sequence_09_Reporte_Asistencia_0036" value="2. Solicitar reporte de asistencia de un evento" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=16;fontColor=#1A1A1A;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="50.0" y="1543" width="968.5" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="sequence_09_Reporte_Asistencia_0037" value="3. Solicitar información del evento" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=16;fontColor=#1A1A1A;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="50.0" y="1578" width="968.5" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="sequence_09_Reporte_Asistencia_0038" value="4. Retornar información del evento" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=16;fontColor=#1A1A1A;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="50.0" y="1613" width="968.5" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="sequence_09_Reporte_Asistencia_0039" value="5. Solicitar información de la asistencia" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=16;fontColor=#1A1A1A;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="50.0" y="1648" width="968.5" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="sequence_09_Reporte_Asistencia_0040" value="6. Retornar información de la asistencia" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=16;fontColor=#1A1A1A;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="50.0" y="1683" width="968.5" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="sequence_09_Reporte_Asistencia_0041" value="7. Solicitar información de estudiantes" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=16;fontColor=#1A1A1A;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="50.0" y="1718" width="968.5" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="sequence_09_Reporte_Asistencia_0042" value="8. Retornar información de estudiantes" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=16;fontColor=#1A1A1A;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1042.5" y="1508" width="968.5" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="sequence_09_Reporte_Asistencia_0043" value="9. Calcular listado de asistencias" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=16;fontColor=#1A1A1A;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1042.5" y="1543" width="968.5" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="sequence_09_Reporte_Asistencia_0044" value="10. Generar reporte de asistencia" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=16;fontColor=#1A1A1A;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1042.5" y="1578" width="968.5" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="sequence_09_Reporte_Asistencia_0045" value="11. Notificar «Reporte generado»" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=16;fontColor=#1A1A1A;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1042.5" y="1613" width="968.5" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="sequence_09_Reporte_Asistencia_0046" value="12. Notificar «Reporte generado»" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=16;fontColor=#1A1A1A;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1042.5" y="1648" width="968.5" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="sequence_09_Reporte_Asistencia_0047" value="13.a. Mostrar «OK»" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=16;fontColor=#1A1A1A;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1042.5" y="1683" width="968.5" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="sequence_09_Reporte_Asistencia_0048" value="13.b. Entregar reporte de asistencia" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=16;fontColor=#1A1A1A;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1042.5" y="1718" width="968.5" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="sequence_09_Reporte_Asistencia_0049" value="MENSAJES 1–13.a/13.b de la pizarra (algunas direcciones de retorno reconstruidas).  |  Fuente: Pizarra «Asistencia», reto 7; guía 11 hojas, p. 9. Mensajes fieles al texto suministrado." style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=15;fontColor=#555555;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="38" y="1864" width="2029" height="75" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
