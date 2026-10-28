@@ -1,0 +1,402 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<mxfile host="app.diagrams.net" modified="2026-10-28T03:18:00.000-05:00" agent="CampusFest - Unillanos" version="24.8.6" type="device">
+  <diagram id="collab_08_Reporte_Reservas" name="01 - Colaboración sin mensajes">
+    <mxGraphModel dx="1900" dy="1180" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1980" pageHeight="1090" background="#FFFFFF" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="collab_08_Reporte_Reservas_0001" value="CAMPUSFEST  |  Colaboración SIN mensajes — Generar reporte de reservas" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=23;fontColor=#1A1A1A;align=left;verticalAlign=middle;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="35" y="15" width="1915" height="44" as="geometry"/>
+        </mxCell>
+        <mxCell id="collab_08_Reporte_Reservas_0002" value="Ingeniería de Software I  ·  Análisis orientado a objetos  ·  Stephen Schach, cap. 13" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=14;fontColor=#555555;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="35" y="59" width="1915" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="collab_08_Reporte_Reservas_0003" value="Organizador" style="shape=umlActor;html=1;strokeColor=#1A1A1A;strokeWidth=2;fontColor=#1A1A1A;fontSize=19;fontFamily=Arial;verticalLabelPosition=bottom;verticalAlign=top;labelPerimeter=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="95" y="290" width="100" height="135" as="geometry"/>
+        </mxCell>
+        <mxCell id="collab_08_Reporte_Reservas_0004" value="PantallaEventos" style="shape=umlBoundary;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF00FF;strokeWidth=3;fontColor=#1A1A1A;fontSize=18;fontFamily=Arial;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="375" y="290" width="225" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="collab_08_Reporte_Reservas_0005" value="GestiónReserva" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF00FF;strokeWidth=3;fontColor=#1A1A1A;fontSize=18;fontFamily=Arial;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="820" y="280" width="220" height="158" as="geometry"/>
+        </mxCell>
+        <mxCell id="collab_08_Reporte_Reservas_0006" value="Evento" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF00FF;strokeWidth=3;fontColor=#1A1A1A;fontSize=19;fontFamily=Arial;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="145" width="198" height="155" as="geometry"/>
+        </mxCell>
+        <mxCell id="collab_08_Reporte_Reservas_0007" value="Reserva" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF00FF;strokeWidth=3;fontColor=#1A1A1A;fontSize=19;fontFamily=Arial;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="475" width="198" height="155" as="geometry"/>
+        </mxCell>
+        <mxCell id="collab_08_Reporte_Reservas_0008" value="ReporteReservas" style="shape=umlBoundary;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF00FF;strokeWidth=3;fontColor=#1A1A1A;fontSize=18;fontFamily=Arial;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="835" y="680" width="218" height="146" as="geometry"/>
+        </mxCell>
+        <mxCell id="collab_08_Reporte_Reservas_0009" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.5;startArrow=none;endArrow=none;" source="collab_08_Reporte_Reservas_0003" target="collab_08_Reporte_Reservas_0004">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="collab_08_Reporte_Reservas_0010" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.5;startArrow=none;endArrow=none;" source="collab_08_Reporte_Reservas_0004" target="collab_08_Reporte_Reservas_0005">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="collab_08_Reporte_Reservas_0011" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.5;startArrow=none;endArrow=none;" source="collab_08_Reporte_Reservas_0005" target="collab_08_Reporte_Reservas_0006">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="collab_08_Reporte_Reservas_0012" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.5;startArrow=none;endArrow=none;" source="collab_08_Reporte_Reservas_0005" target="collab_08_Reporte_Reservas_0007">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="collab_08_Reporte_Reservas_0013" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.5;startArrow=none;endArrow=none;" source="collab_08_Reporte_Reservas_0005" target="collab_08_Reporte_Reservas_0008">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="collab_08_Reporte_Reservas_0014" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.5;startArrow=none;endArrow=none;" source="collab_08_Reporte_Reservas_0008" target="collab_08_Reporte_Reservas_0003">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="collab_08_Reporte_Reservas_0015" value="Participantes y enlaces de colaboración (sin numeración de mensajes)." style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=19;fontColor=#1A1A1A;align=left;verticalAlign=middle;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="825" width="1730" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="collab_08_Reporte_Reservas_0016" value="MENSAJES 1–11.a/11.b de la pizarra (algunas direcciones de retorno reconstruidas)." style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=17;fontColor=#1A1A1A;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="70" y="895" width="1780" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="collab_08_Reporte_Reservas_0017" value="Procedencia: Pizarra «Reservas», reto 7; guía 11 hojas, p. 9. Mensajes fieles al texto suministrado.  |  Color de relaciones y clases: #FF00FF, según Schach fig. 13.63 y diagrama suministrado." style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=15;fontColor=#555555;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="38" y="990" width="1904" height="75" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="communication_08_Reporte_Reservas" name="02 - Comunicación con mensajes">
+    <mxGraphModel dx="1900" dy="1180" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1980" pageHeight="1800" background="#FFFFFF" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="communication_08_Reporte_Reservas_0001" value="CAMPUSFEST  |  Comunicación CON mensajes — Generar reporte de reservas" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=23;fontColor=#1A1A1A;align=left;verticalAlign=middle;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="35" y="15" width="1915" height="44" as="geometry"/>
+        </mxCell>
+        <mxCell id="communication_08_Reporte_Reservas_0002" value="Ingeniería de Software I  ·  Análisis orientado a objetos  ·  Stephen Schach, cap. 13" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=14;fontColor=#555555;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="35" y="59" width="1915" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="communication_08_Reporte_Reservas_0003" value="Organizador" style="shape=umlActor;html=1;strokeColor=#1A1A1A;strokeWidth=2;fontColor=#1A1A1A;fontSize=19;fontFamily=Arial;verticalLabelPosition=bottom;verticalAlign=top;labelPerimeter=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="95" y="290" width="100" height="135" as="geometry"/>
+        </mxCell>
+        <mxCell id="communication_08_Reporte_Reservas_0004" value="PantallaEventos" style="shape=umlBoundary;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF00FF;strokeWidth=3;fontColor=#1A1A1A;fontSize=18;fontFamily=Arial;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="375" y="290" width="225" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="communication_08_Reporte_Reservas_0005" value="GestiónReserva" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF00FF;strokeWidth=3;fontColor=#1A1A1A;fontSize=18;fontFamily=Arial;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="820" y="280" width="220" height="158" as="geometry"/>
+        </mxCell>
+        <mxCell id="communication_08_Reporte_Reservas_0006" value="Evento" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF00FF;strokeWidth=3;fontColor=#1A1A1A;fontSize=19;fontFamily=Arial;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="145" width="198" height="155" as="geometry"/>
+        </mxCell>
+        <mxCell id="communication_08_Reporte_Reservas_0007" value="Reserva" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF00FF;strokeWidth=3;fontColor=#1A1A1A;fontSize=19;fontFamily=Arial;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="475" width="198" height="155" as="geometry"/>
+        </mxCell>
+        <mxCell id="communication_08_Reporte_Reservas_0008" value="ReporteReservas" style="shape=umlBoundary;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF00FF;strokeWidth=3;fontColor=#1A1A1A;fontSize=18;fontFamily=Arial;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="835" y="680" width="218" height="146" as="geometry"/>
+        </mxCell>
+        <mxCell id="communication_08_Reporte_Reservas_0009" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.2;startArrow=none;endArrow=classic;endFill=1;fontColor=#1A1A1A;fontSize=16;labelBackgroundColor=#FFFFFF;" value="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="195" y="340.5" as="sourcePoint"/>
+            <mxPoint x="375" y="348.0" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="communication_08_Reporte_Reservas_0010" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.2;startArrow=none;endArrow=classic;endFill=1;fontColor=#1A1A1A;fontSize=16;labelBackgroundColor=#FFFFFF;" value="2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="348.0" as="sourcePoint"/>
+            <mxPoint x="820" y="342.0" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="communication_08_Reporte_Reservas_0011" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.2;startArrow=none;endArrow=classic;endFill=1;fontColor=#1A1A1A;fontSize=16;labelBackgroundColor=#FFFFFF;" value="3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1040" y="342.6" as="sourcePoint"/>
+            <mxPoint x="1340" y="206.1" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="communication_08_Reporte_Reservas_0012" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.2;startArrow=none;endArrow=open;dashed=1;dashPattern=7 4;fontColor=#1A1A1A;fontSize=16;labelBackgroundColor=#FFFFFF;" value="4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1340" y="206.1" as="sourcePoint"/>
+            <mxPoint x="1040" y="342.6" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="communication_08_Reporte_Reservas_0013" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.2;startArrow=none;endArrow=classic;endFill=1;fontColor=#1A1A1A;fontSize=16;labelBackgroundColor=#FFFFFF;" value="5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1040" y="343.1" as="sourcePoint"/>
+            <mxPoint x="1340" y="536.6" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="communication_08_Reporte_Reservas_0014" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.2;startArrow=none;endArrow=open;dashed=1;dashPattern=7 4;fontColor=#1A1A1A;fontSize=16;labelBackgroundColor=#FFFFFF;" value="6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1340" y="536.6" as="sourcePoint"/>
+            <mxPoint x="1040" y="343.1" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="communication_08_Reporte_Reservas_0015" value="7  Calcular lista" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=15;fontColor=#FF00FF;align=left;verticalAlign=middle;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="468" width="310" height="35" as="geometry"/>
+        </mxCell>
+        <mxCell id="communication_08_Reporte_Reservas_0016" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.2;startArrow=none;endArrow=classic;endFill=1;fontColor=#1A1A1A;fontSize=16;labelBackgroundColor=#FFFFFF;" value="8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="947.0" y="438" as="sourcePoint"/>
+            <mxPoint x="961.0" y="680" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="communication_08_Reporte_Reservas_0017" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.2;startArrow=none;endArrow=open;dashed=1;dashPattern=7 4;fontColor=#1A1A1A;fontSize=16;labelBackgroundColor=#FFFFFF;" value="9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="961.0" y="680" as="sourcePoint"/>
+            <mxPoint x="947.0" y="438" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="communication_08_Reporte_Reservas_0018" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.2;startArrow=none;endArrow=open;dashed=1;dashPattern=7 4;fontColor=#1A1A1A;fontSize=16;labelBackgroundColor=#FFFFFF;" value="10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="342.0" as="sourcePoint"/>
+            <mxPoint x="600" y="348.0" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="communication_08_Reporte_Reservas_0019" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.2;startArrow=none;endArrow=open;dashed=1;dashPattern=7 4;fontColor=#1A1A1A;fontSize=16;labelBackgroundColor=#FFFFFF;" value="11.a">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="375" y="348.0" as="sourcePoint"/>
+            <mxPoint x="195" y="340.5" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="communication_08_Reporte_Reservas_0020" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.2;startArrow=none;endArrow=open;dashed=1;dashPattern=7 4;fontColor=#1A1A1A;fontSize=16;labelBackgroundColor=#FFFFFF;" value="11.b">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="835" y="753.0" as="sourcePoint"/>
+            <mxPoint x="195" y="357.5" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="communication_08_Reporte_Reservas_0021" value="MENSAJES NUMERADOS — escenario y retornos" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=21;fontColor=#1A1A1A;align=left;verticalAlign=middle;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="970" width="1820" height="42" as="geometry"/>
+        </mxCell>
+        <mxCell id="communication_08_Reporte_Reservas_0022" value="1 — Organizador selecciona evento" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=16;fontColor=#1A1A1A;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="66.0" y="1037" width="906.0" height="42" as="geometry"/>
+        </mxCell>
+        <mxCell id="communication_08_Reporte_Reservas_0023" value="2 — Solicitar lista de reservas" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=16;fontColor=#1A1A1A;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="66.0" y="1081" width="906.0" height="42" as="geometry"/>
+        </mxCell>
+        <mxCell id="communication_08_Reporte_Reservas_0024" value="3 — Solicitar información del evento" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=16;fontColor=#1A1A1A;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="66.0" y="1125" width="906.0" height="42" as="geometry"/>
+        </mxCell>
+        <mxCell id="communication_08_Reporte_Reservas_0025" value="4 — Devolver información del evento" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=16;fontColor=#1A1A1A;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="66.0" y="1169" width="906.0" height="42" as="geometry"/>
+        </mxCell>
+        <mxCell id="communication_08_Reporte_Reservas_0026" value="5 — Solicitar información de Reserva" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=16;fontColor=#1A1A1A;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="66.0" y="1213" width="906.0" height="42" as="geometry"/>
+        </mxCell>
+        <mxCell id="communication_08_Reporte_Reservas_0027" value="6 — Devolver información de Reserva" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=16;fontColor=#1A1A1A;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="66.0" y="1257" width="906.0" height="42" as="geometry"/>
+        </mxCell>
+        <mxCell id="communication_08_Reporte_Reservas_0028" value="7 — Calcular listado de reservas" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=16;fontColor=#1A1A1A;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="996.0" y="1037" width="906.0" height="42" as="geometry"/>
+        </mxCell>
+        <mxCell id="communication_08_Reporte_Reservas_0029" value="8 — Generar reporte de reservas" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=16;fontColor=#1A1A1A;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="996.0" y="1081" width="906.0" height="42" as="geometry"/>
+        </mxCell>
+        <mxCell id="communication_08_Reporte_Reservas_0030" value="9 — Notificar «Reporte generado»" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=16;fontColor=#1A1A1A;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="996.0" y="1125" width="906.0" height="42" as="geometry"/>
+        </mxCell>
+        <mxCell id="communication_08_Reporte_Reservas_0031" value="10 — Notificar «Reporte generado»" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=16;fontColor=#1A1A1A;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="996.0" y="1169" width="906.0" height="42" as="geometry"/>
+        </mxCell>
+        <mxCell id="communication_08_Reporte_Reservas_0032" value="11.a — Mostrar «OK»" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=16;fontColor=#1A1A1A;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="996.0" y="1213" width="906.0" height="42" as="geometry"/>
+        </mxCell>
+        <mxCell id="communication_08_Reporte_Reservas_0033" value="11.b — Entregar reporte de reservas" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=16;fontColor=#1A1A1A;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="996.0" y="1257" width="906.0" height="42" as="geometry"/>
+        </mxCell>
+        <mxCell id="communication_08_Reporte_Reservas_0034" value="MENSAJES 1–11.a/11.b de la pizarra (algunas direcciones de retorno reconstruidas).  |  Fuente: Pizarra «Reservas», reto 7; guía 11 hojas, p. 9. Mensajes fieles al texto suministrado." style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=15;fontColor=#555555;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="38" y="1700" width="1904" height="75" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="sequence_08_Reporte_Reservas" name="03 - Secuencia">
+    <mxGraphModel dx="1900" dy="1180" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1900" pageHeight="1933" background="#FFFFFF" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="sequence_08_Reporte_Reservas_0001" value="CAMPUSFEST  |  Secuencia — Generar reporte de reservas" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=23;fontColor=#1A1A1A;align=left;verticalAlign=middle;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="35" y="15" width="1835" height="44" as="geometry"/>
+        </mxCell>
+        <mxCell id="sequence_08_Reporte_Reservas_0002" value="Ingeniería de Software I  ·  Análisis orientado a objetos  ·  Stephen Schach, cap. 13" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=14;fontColor=#555555;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="35" y="59" width="1835" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="sequence_08_Reporte_Reservas_0003" value="Organizador" style="shape=umlActor;html=1;strokeColor=#1A1A1A;strokeWidth=2;fontColor=#1A1A1A;fontSize=19;fontFamily=Arial;verticalLabelPosition=bottom;verticalAlign=top;labelPerimeter=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="117" y="117" width="76" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="sequence_08_Reporte_Reservas_0004" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.5;startArrow=none;endArrow=none;strokeColor=#555555;strokeWidth=1.5;dashed=1;dashPattern=5 5;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="155" y="230" as="sourcePoint"/>
+            <mxPoint x="155" y="1440" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sequence_08_Reporte_Reservas_0005" value="PantallaEventos" style="rounded=0;html=1;whiteSpace=wrap;strokeColor=#FF00FF;strokeWidth=2;fillColor=#FFFFFF;fontColor=#1A1A1A;fontFamily=Arial;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="356" y="133" width="188" height="58" as="geometry"/>
+        </mxCell>
+        <mxCell id="sequence_08_Reporte_Reservas_0006" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.5;startArrow=none;endArrow=none;strokeColor=#555555;strokeWidth=1.5;dashed=1;dashPattern=5 5;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="230" as="sourcePoint"/>
+            <mxPoint x="450" y="1440" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sequence_08_Reporte_Reservas_0007" value="GestiónReserva" style="rounded=0;html=1;whiteSpace=wrap;strokeColor=#FF00FF;strokeWidth=2;fillColor=#FFFFFF;fontColor=#1A1A1A;fontFamily=Arial;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="651" y="133" width="188" height="58" as="geometry"/>
+        </mxCell>
+        <mxCell id="sequence_08_Reporte_Reservas_0008" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.5;startArrow=none;endArrow=none;strokeColor=#555555;strokeWidth=1.5;dashed=1;dashPattern=5 5;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="745" y="230" as="sourcePoint"/>
+            <mxPoint x="745" y="1440" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sequence_08_Reporte_Reservas_0009" value="Evento" style="rounded=0;html=1;whiteSpace=wrap;strokeColor=#FF00FF;strokeWidth=2;fillColor=#FFFFFF;fontColor=#1A1A1A;fontFamily=Arial;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="946" y="133" width="188" height="58" as="geometry"/>
+        </mxCell>
+        <mxCell id="sequence_08_Reporte_Reservas_0010" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.5;startArrow=none;endArrow=none;strokeColor=#555555;strokeWidth=1.5;dashed=1;dashPattern=5 5;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1040" y="230" as="sourcePoint"/>
+            <mxPoint x="1040" y="1440" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sequence_08_Reporte_Reservas_0011" value="Reserva" style="rounded=0;html=1;whiteSpace=wrap;strokeColor=#FF00FF;strokeWidth=2;fillColor=#FFFFFF;fontColor=#1A1A1A;fontFamily=Arial;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1241" y="133" width="188" height="58" as="geometry"/>
+        </mxCell>
+        <mxCell id="sequence_08_Reporte_Reservas_0012" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.5;startArrow=none;endArrow=none;strokeColor=#555555;strokeWidth=1.5;dashed=1;dashPattern=5 5;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1335" y="230" as="sourcePoint"/>
+            <mxPoint x="1335" y="1440" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sequence_08_Reporte_Reservas_0013" value="ReporteReservas" style="rounded=0;html=1;whiteSpace=wrap;strokeColor=#FF00FF;strokeWidth=2;fillColor=#FFFFFF;fontColor=#1A1A1A;fontFamily=Arial;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1536" y="133" width="188" height="58" as="geometry"/>
+        </mxCell>
+        <mxCell id="sequence_08_Reporte_Reservas_0014" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.5;startArrow=none;endArrow=none;strokeColor=#555555;strokeWidth=1.5;dashed=1;dashPattern=5 5;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1630" y="230" as="sourcePoint"/>
+            <mxPoint x="1630" y="1440" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sequence_08_Reporte_Reservas_0015" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.2;startArrow=none;endArrow=classic;endFill=1;fontColor=#1A1A1A;fontSize=16;labelBackgroundColor=#FFFFFF;" value="1 Seleccionar evento">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="155" y="310" as="sourcePoint"/>
+            <mxPoint x="450" y="310" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sequence_08_Reporte_Reservas_0016" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.2;startArrow=none;endArrow=classic;endFill=1;fontColor=#1A1A1A;fontSize=16;labelBackgroundColor=#FFFFFF;" value="2 Pedir lista">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="400" as="sourcePoint"/>
+            <mxPoint x="745" y="400" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sequence_08_Reporte_Reservas_0017" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.2;startArrow=none;endArrow=classic;endFill=1;fontColor=#1A1A1A;fontSize=16;labelBackgroundColor=#FFFFFF;" value="3 Datos evento">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="745" y="490" as="sourcePoint"/>
+            <mxPoint x="1040" y="490" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sequence_08_Reporte_Reservas_0018" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.2;startArrow=none;endArrow=open;dashed=1;dashPattern=7 4;fontColor=#1A1A1A;fontSize=16;labelBackgroundColor=#FFFFFF;" value="4 Retornar evento">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1040" y="580" as="sourcePoint"/>
+            <mxPoint x="745" y="580" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sequence_08_Reporte_Reservas_0019" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.2;startArrow=none;endArrow=classic;endFill=1;fontColor=#1A1A1A;fontSize=16;labelBackgroundColor=#FFFFFF;" value="5 Datos reservas">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="745" y="670" as="sourcePoint"/>
+            <mxPoint x="1335" y="670" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sequence_08_Reporte_Reservas_0020" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.2;startArrow=none;endArrow=open;dashed=1;dashPattern=7 4;fontColor=#1A1A1A;fontSize=16;labelBackgroundColor=#FFFFFF;" value="6 Retornar reservas">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1335" y="760" as="sourcePoint"/>
+            <mxPoint x="745" y="760" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sequence_08_Reporte_Reservas_0021" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.5;startArrow=none;endArrow=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="745" y="850" as="sourcePoint"/>
+            <mxPoint x="819" y="850" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sequence_08_Reporte_Reservas_0022" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.5;startArrow=none;endArrow=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="819" y="850" as="sourcePoint"/>
+            <mxPoint x="819" y="885" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sequence_08_Reporte_Reservas_0023" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.2;startArrow=none;endArrow=classic;endFill=1;fontColor=#1A1A1A;fontSize=16;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="819" y="885" as="sourcePoint"/>
+            <mxPoint x="745" y="885" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sequence_08_Reporte_Reservas_0024" value="7 Calcular lista" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=15;fontColor=#1A1A1A;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="830" y="853" width="250" height="35" as="geometry"/>
+        </mxCell>
+        <mxCell id="sequence_08_Reporte_Reservas_0025" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.2;startArrow=none;endArrow=classic;endFill=1;fontColor=#1A1A1A;fontSize=16;labelBackgroundColor=#FFFFFF;" value="8 Generar reporte">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="745" y="940" as="sourcePoint"/>
+            <mxPoint x="1630" y="940" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sequence_08_Reporte_Reservas_0026" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.2;startArrow=none;endArrow=open;dashed=1;dashPattern=7 4;fontColor=#1A1A1A;fontSize=16;labelBackgroundColor=#FFFFFF;" value="9 Reporte generado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1630" y="1030" as="sourcePoint"/>
+            <mxPoint x="745" y="1030" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sequence_08_Reporte_Reservas_0027" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.2;startArrow=none;endArrow=open;dashed=1;dashPattern=7 4;fontColor=#1A1A1A;fontSize=16;labelBackgroundColor=#FFFFFF;" value="10 Reporte generado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="745" y="1120" as="sourcePoint"/>
+            <mxPoint x="450" y="1120" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sequence_08_Reporte_Reservas_0028" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.2;startArrow=none;endArrow=open;dashed=1;dashPattern=7 4;fontColor=#1A1A1A;fontSize=16;labelBackgroundColor=#FFFFFF;" value="11.a OK">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="1210" as="sourcePoint"/>
+            <mxPoint x="155" y="1210" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sequence_08_Reporte_Reservas_0029" edge="1" parent="1" style="html=1;edgeStyle=none;rounded=0;strokeColor=#FF00FF;strokeWidth=2.2;startArrow=none;endArrow=open;dashed=1;dashPattern=7 4;fontColor=#1A1A1A;fontSize=16;labelBackgroundColor=#FFFFFF;" value="11.b Reporte">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1630" y="1300" as="sourcePoint"/>
+            <mxPoint x="155" y="1300" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sequence_08_Reporte_Reservas_0030" value="DETALLE DEL ORDEN DE MENSAJES" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=20;fontColor=#1A1A1A;align=left;verticalAlign=middle;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1453" width="1820" height="38" as="geometry"/>
+        </mxCell>
+        <mxCell id="sequence_08_Reporte_Reservas_0031" value="1. Organizador selecciona evento" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=16;fontColor=#1A1A1A;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="50.0" y="1510" width="866.0" height="33" as="geometry"/>
+        </mxCell>
+        <mxCell id="sequence_08_Reporte_Reservas_0032" value="2. Solicitar lista de reservas" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=16;fontColor=#1A1A1A;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="50.0" y="1545" width="866.0" height="33" as="geometry"/>
+        </mxCell>
+        <mxCell id="sequence_08_Reporte_Reservas_0033" value="3. Solicitar información del evento" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=16;fontColor=#1A1A1A;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="50.0" y="1580" width="866.0" height="33" as="geometry"/>
+        </mxCell>
+        <mxCell id="sequence_08_Reporte_Reservas_0034" value="4. Devolver información del evento" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=16;fontColor=#1A1A1A;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="50.0" y="1615" width="866.0" height="33" as="geometry"/>
+        </mxCell>
+        <mxCell id="sequence_08_Reporte_Reservas_0035" value="5. Solicitar información de Reserva" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=16;fontColor=#1A1A1A;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="50.0" y="1650" width="866.0" height="33" as="geometry"/>
+        </mxCell>
+        <mxCell id="sequence_08_Reporte_Reservas_0036" value="6. Devolver información de Reserva" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=16;fontColor=#1A1A1A;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="50.0" y="1685" width="866.0" height="33" as="geometry"/>
+        </mxCell>
+        <mxCell id="sequence_08_Reporte_Reservas_0037" value="7. Calcular listado de reservas" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=16;fontColor=#1A1A1A;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="940.0" y="1510" width="866.0" height="33" as="geometry"/>
+        </mxCell>
+        <mxCell id="sequence_08_Reporte_Reservas_0038" value="8. Generar reporte de reservas" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=16;fontColor=#1A1A1A;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="940.0" y="1545" width="866.0" height="33" as="geometry"/>
+        </mxCell>
+        <mxCell id="sequence_08_Reporte_Reservas_0039" value="9. Notificar «Reporte generado»" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=16;fontColor=#1A1A1A;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="940.0" y="1580" width="866.0" height="33" as="geometry"/>
+        </mxCell>
+        <mxCell id="sequence_08_Reporte_Reservas_0040" value="10. Notificar «Reporte generado»" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=16;fontColor=#1A1A1A;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="940.0" y="1615" width="866.0" height="33" as="geometry"/>
+        </mxCell>
+        <mxCell id="sequence_08_Reporte_Reservas_0041" value="11.a. Mostrar «OK»" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=16;fontColor=#1A1A1A;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="940.0" y="1650" width="866.0" height="33" as="geometry"/>
+        </mxCell>
+        <mxCell id="sequence_08_Reporte_Reservas_0042" value="11.b. Entregar reporte de reservas" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=16;fontColor=#1A1A1A;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="940.0" y="1685" width="866.0" height="33" as="geometry"/>
+        </mxCell>
+        <mxCell id="sequence_08_Reporte_Reservas_0043" value="MENSAJES 1–11.a/11.b de la pizarra (algunas direcciones de retorno reconstruidas).  |  Fuente: Pizarra «Reservas», reto 7; guía 11 hojas, p. 9. Mensajes fieles al texto suministrado." style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=15;fontColor=#555555;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="38" y="1833" width="1824" height="75" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
