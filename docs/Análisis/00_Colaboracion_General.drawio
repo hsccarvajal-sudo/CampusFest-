@@ -1,0 +1,279 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<mxfile host="app.diagrams.net" modified="2026-10-28T03:18:00.000-05:00" agent="CampusFest - Unillanos" version="24.8.6" type="device"><diagram name="01 - General EXACTO (27 asociaciones de fuente)" id="imported_0_0">
+    <mxGraphModel dx="2130" dy="1550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2150" pageHeight="1550" math="0" shadow="0" background="#FFFFFF">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="Estudiante_actor" value="Estudiante" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;labelPosition=center;labelPerimeter=1;fontSize=20;fontFamily=Arial;strokeColor=#1A1A1A;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="218" y="82" width="45" height="87" as="geometry"/>
+        </mxCell>
+        <mxCell id="Organizador" value="Organizador" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;labelPosition=center;labelPerimeter=1;fontSize=20;fontFamily=Arial;strokeColor=#1A1A1A;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1785" y="82" width="45" height="87" as="geometry"/>
+        </mxCell>
+        <mxCell id="Tiempo" value="Tiempo (10 min)" style="shape=mxgraph.ios7.icons.clock;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;labelPerimeter=1;fontSize=18;fontFamily=Arial;strokeColor=#1A1A1A;strokeWidth=4;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="889" y="85" width="75" height="75" as="geometry"/>
+        </mxCell>
+        <mxCell id="PantallaEventos" value="PantallaEventos" style="shape=umlBoundary;whiteSpace=wrap;html=1;strokeColor=#FF00FF;fillColor=#FFFFFF;strokeWidth=2.5;fontSize=17;fontColor=#171717;fontFamily=Arial;align=center;verticalAlign=middle;spacing=3;" vertex="1" parent="1">
+          <mxGeometry x="133" y="365" width="195" height="156" as="geometry"/>
+        </mxCell>
+        <mxCell id="ReporteReservas" value="ReporteReservas" style="shape=umlBoundary;whiteSpace=wrap;html=1;strokeColor=#FF00FF;fillColor=#FFFFFF;strokeWidth=2.5;fontSize=17;fontColor=#171717;fontFamily=Arial;align=center;verticalAlign=middle;spacing=3;" vertex="1" parent="1">
+          <mxGeometry x="527" y="365" width="195" height="156" as="geometry"/>
+        </mxCell>
+        <mxCell id="InterfazCampusFest" value="InterfazCampusFest" style="shape=umlBoundary;whiteSpace=wrap;html=1;strokeColor=#FF00FF;fillColor=#FFFFFF;strokeWidth=2.5;fontSize=17;fontColor=#171717;fontFamily=Arial;align=center;verticalAlign=middle;spacing=3;" vertex="1" parent="1">
+          <mxGeometry x="921" y="365" width="195" height="156" as="geometry"/>
+        </mxCell>
+        <mxCell id="ReporteAsistencias" value="ReporteAsistencias" style="shape=umlBoundary;whiteSpace=wrap;html=1;strokeColor=#FF00FF;fillColor=#FFFFFF;strokeWidth=2.5;fontSize=17;fontColor=#171717;fontFamily=Arial;align=center;verticalAlign=middle;spacing=3;" vertex="1" parent="1">
+          <mxGeometry x="1315" y="365" width="195" height="156" as="geometry"/>
+        </mxCell>
+        <mxCell id="PantallaEventoOrganizador" value="PantallaEventoOrganizador" style="shape=umlBoundary;whiteSpace=wrap;html=1;strokeColor=#FF00FF;fillColor=#FFFFFF;strokeWidth=2.5;fontSize=17;fontColor=#171717;fontFamily=Arial;align=center;verticalAlign=middle;spacing=3;" vertex="1" parent="1">
+          <mxGeometry x="1708" y="365" width="195" height="156" as="geometry"/>
+        </mxCell>
+        <mxCell id="CalculoDisponibilidad" value="CalculoDisponibilidad" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;strokeColor=#FF00FF;fillColor=#FFFFFF;strokeWidth=2.5;fontSize=17;fontColor=#171717;fontFamily=Arial;align=center;verticalAlign=middle;spacing=2;" vertex="1" parent="1">
+          <mxGeometry x="212" y="761" width="213" height="158" as="geometry"/>
+        </mxCell>
+        <mxCell id="GestiónReserva" value="GestiónReserva" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;strokeColor=#FF00FF;fillColor=#FFFFFF;strokeWidth=2.5;fontSize=17;fontColor=#171717;fontFamily=Arial;align=center;verticalAlign=middle;spacing=2;" vertex="1" parent="1">
+          <mxGeometry x="670" y="761" width="213" height="158" as="geometry"/>
+        </mxCell>
+        <mxCell id="GestiónAsistencia" value="GestiónAsistencia" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;strokeColor=#FF00FF;fillColor=#FFFFFF;strokeWidth=2.5;fontSize=17;fontColor=#171717;fontFamily=Arial;align=center;verticalAlign=middle;spacing=2;" vertex="1" parent="1">
+          <mxGeometry x="1128" y="761" width="213" height="158" as="geometry"/>
+        </mxCell>
+        <mxCell id="GestiónEvento" value="GestiónEvento" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;strokeColor=#FF00FF;fillColor=#FFFFFF;strokeWidth=2.5;fontSize=17;fontColor=#171717;fontFamily=Arial;align=center;verticalAlign=middle;spacing=2;" vertex="1" parent="1">
+          <mxGeometry x="1586" y="761" width="213" height="158" as="geometry"/>
+        </mxCell>
+        <mxCell id="Evento" value="Evento" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;strokeColor=#FF00FF;fillColor=#FFFFFF;strokeWidth=2.5;fontSize=19;fontColor=#171717;fontFamily=Arial;align=center;verticalAlign=middle;spacing=3;" vertex="1" parent="1">
+          <mxGeometry x="236" y="1096" width="165" height="158" as="geometry"/>
+        </mxCell>
+        <mxCell id="Reserva" value="Reserva" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;strokeColor=#FF00FF;fillColor=#FFFFFF;strokeWidth=2.5;fontSize=19;fontColor=#171717;fontFamily=Arial;align=center;verticalAlign=middle;spacing=3;" vertex="1" parent="1">
+          <mxGeometry x="694" y="1096" width="165" height="158" as="geometry"/>
+        </mxCell>
+        <mxCell id="Estudiante_entidad" value="Estudiante" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;strokeColor=#FF00FF;fillColor=#FFFFFF;strokeWidth=2.5;fontSize=19;fontColor=#171717;fontFamily=Arial;align=center;verticalAlign=middle;spacing=3;" vertex="1" parent="1">
+          <mxGeometry x="1745" y="1096" width="165" height="158" as="geometry"/>
+        </mxCell>
+        <mxCell id="Asistencia" value="Asistencia" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;strokeColor=#FF00FF;fillColor=#FFFFFF;strokeWidth=2.5;fontSize=19;fontColor=#171717;fontFamily=Arial;align=center;verticalAlign=middle;spacing=3;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="1320" width="165" height="158" as="geometry"/>
+        </mxCell>
+        <mxCell id="link_01" edge="1" parent="1" source="Estudiante_actor" target="InterfazCampusFest" style="html=1;edgeStyle=none;rounded=0;strokeWidth=2.2;strokeColor=#FF00FF;endArrow=none;startArrow=none;endFill=0;startFill=0;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="link_02" edge="1" parent="1" source="Estudiante_actor" target="PantallaEventos" style="html=1;edgeStyle=none;rounded=0;strokeWidth=2.2;strokeColor=#FF00FF;endArrow=none;startArrow=none;endFill=0;startFill=0;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="link_03" edge="1" parent="1" source="Organizador" target="InterfazCampusFest" style="html=1;edgeStyle=none;rounded=0;strokeWidth=2.2;strokeColor=#FF00FF;endArrow=none;startArrow=none;endFill=0;startFill=0;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="link_04" edge="1" parent="1" source="Organizador" target="PantallaEventoOrganizador" style="html=1;edgeStyle=none;rounded=0;strokeWidth=2.2;strokeColor=#FF00FF;endArrow=none;startArrow=none;endFill=0;startFill=0;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="link_05" edge="1" parent="1" source="Tiempo" target="GestiónReserva" style="html=1;edgeStyle=none;rounded=0;strokeWidth=2.2;strokeColor=#FF00FF;endArrow=none;startArrow=none;endFill=0;startFill=0;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="link_06" edge="1" parent="1" source="InterfazCampusFest" target="CalculoDisponibilidad" style="html=1;edgeStyle=none;rounded=0;strokeWidth=2.2;strokeColor=#FF00FF;endArrow=none;startArrow=none;endFill=0;startFill=0;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="link_07" edge="1" parent="1" source="InterfazCampusFest" target="GestiónReserva" style="html=1;edgeStyle=none;rounded=0;strokeWidth=2.2;strokeColor=#FF00FF;endArrow=none;startArrow=none;endFill=0;startFill=0;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="link_08" edge="1" parent="1" source="InterfazCampusFest" target="GestiónAsistencia" style="html=1;edgeStyle=none;rounded=0;strokeWidth=2.2;strokeColor=#FF00FF;endArrow=none;startArrow=none;endFill=0;startFill=0;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="link_09" edge="1" parent="1" source="InterfazCampusFest" target="GestiónEvento" style="html=1;edgeStyle=none;rounded=0;strokeWidth=2.2;strokeColor=#FF00FF;endArrow=none;startArrow=none;endFill=0;startFill=0;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="link_10" edge="1" parent="1" source="PantallaEventos" target="CalculoDisponibilidad" style="html=1;edgeStyle=none;rounded=0;strokeWidth=2.2;strokeColor=#FF00FF;endArrow=none;startArrow=none;endFill=0;startFill=0;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="link_11" edge="1" parent="1" source="PantallaEventos" target="GestiónReserva" style="html=1;edgeStyle=none;rounded=0;strokeWidth=2.2;strokeColor=#FF00FF;endArrow=none;startArrow=none;endFill=0;startFill=0;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="link_12" edge="1" parent="1" source="PantallaEventoOrganizador" target="GestiónAsistencia" style="html=1;edgeStyle=none;rounded=0;strokeWidth=2.2;strokeColor=#FF00FF;endArrow=none;startArrow=none;endFill=0;startFill=0;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="link_13" edge="1" parent="1" source="PantallaEventoOrganizador" target="GestiónEvento" style="html=1;edgeStyle=none;rounded=0;strokeWidth=2.2;strokeColor=#FF00FF;endArrow=none;startArrow=none;endFill=0;startFill=0;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="link_14" edge="1" parent="1" source="ReporteReservas" target="GestiónReserva" style="html=1;edgeStyle=none;rounded=0;strokeWidth=2.2;strokeColor=#FF00FF;endArrow=none;startArrow=none;endFill=0;startFill=0;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="link_15" edge="1" parent="1" source="ReporteAsistencias" target="GestiónAsistencia" style="html=1;edgeStyle=none;rounded=0;strokeWidth=2.2;strokeColor=#FF00FF;endArrow=none;startArrow=none;endFill=0;startFill=0;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="link_16" edge="1" parent="1" source="CalculoDisponibilidad" target="Evento" style="html=1;edgeStyle=none;rounded=0;strokeWidth=2.2;strokeColor=#FF00FF;endArrow=none;startArrow=none;endFill=0;startFill=0;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="link_17" edge="1" parent="1" source="CalculoDisponibilidad" target="Reserva" style="html=1;edgeStyle=none;rounded=0;strokeWidth=2.2;strokeColor=#FF00FF;endArrow=none;startArrow=none;endFill=0;startFill=0;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="link_18" edge="1" parent="1" source="GestiónReserva" target="Evento" style="html=1;edgeStyle=none;rounded=0;strokeWidth=2.2;strokeColor=#FF00FF;endArrow=none;startArrow=none;endFill=0;startFill=0;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="link_19" edge="1" parent="1" source="GestiónReserva" target="Reserva" style="html=1;edgeStyle=none;rounded=0;strokeWidth=2.2;strokeColor=#FF00FF;endArrow=none;startArrow=none;endFill=0;startFill=0;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="link_20" edge="1" parent="1" source="GestiónAsistencia" target="Evento" style="html=1;edgeStyle=none;rounded=0;strokeWidth=2.2;strokeColor=#FF00FF;endArrow=none;startArrow=none;endFill=0;startFill=0;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="link_21" edge="1" parent="1" source="GestiónAsistencia" target="Asistencia" style="html=1;edgeStyle=none;rounded=0;strokeWidth=2.2;strokeColor=#FF00FF;endArrow=none;startArrow=none;endFill=0;startFill=0;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="link_22" edge="1" parent="1" source="GestiónAsistencia" target="Estudiante_entidad" style="html=1;edgeStyle=none;rounded=0;strokeWidth=2.2;strokeColor=#FF00FF;endArrow=none;startArrow=none;endFill=0;startFill=0;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="link_23" edge="1" parent="1" source="GestiónEvento" target="Evento" style="html=1;edgeStyle=none;rounded=0;strokeWidth=2.2;strokeColor=#FF00FF;endArrow=none;startArrow=none;endFill=0;startFill=0;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="link_24" edge="1" parent="1" source="Evento" target="Reserva" style="html=1;edgeStyle=none;rounded=0;strokeWidth=2.2;strokeColor=#FF00FF;endArrow=none;startArrow=none;endFill=0;startFill=0;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="link_25" edge="1" parent="1" source="Evento" target="Asistencia" style="html=1;edgeStyle=none;rounded=0;strokeWidth=2.2;strokeColor=#FF00FF;endArrow=none;startArrow=none;endFill=0;startFill=0;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="link_26" edge="1" parent="1" source="Estudiante_entidad" target="Reserva" style="html=1;edgeStyle=none;rounded=0;strokeWidth=2.2;strokeColor=#FF00FF;endArrow=none;startArrow=none;endFill=0;startFill=0;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="link_27" edge="1" parent="1" source="Estudiante_entidad" target="Asistencia" style="html=1;edgeStyle=none;rounded=0;strokeWidth=2.2;strokeColor=#FF00FF;endArrow=none;startArrow=none;endFill=0;startFill=0;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="02 - General REFINADO (QR, asociación justificada)" id="imported_1_1">
+    <mxGraphModel dx="2130" dy="1550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2150" pageHeight="1550" math="0" shadow="0" background="#FFFFFF">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="Estudiante_actor" value="Estudiante" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;labelPosition=center;labelPerimeter=1;fontSize=20;fontFamily=Arial;strokeColor=#1A1A1A;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="218" y="82" width="45" height="87" as="geometry"/>
+        </mxCell>
+        <mxCell id="Organizador" value="Organizador" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;labelPosition=center;labelPerimeter=1;fontSize=20;fontFamily=Arial;strokeColor=#1A1A1A;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1785" y="82" width="45" height="87" as="geometry"/>
+        </mxCell>
+        <mxCell id="Tiempo" value="Tiempo (10 min)" style="shape=mxgraph.ios7.icons.clock;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;labelPerimeter=1;fontSize=18;fontFamily=Arial;strokeColor=#1A1A1A;strokeWidth=4;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="889" y="85" width="75" height="75" as="geometry"/>
+        </mxCell>
+        <mxCell id="PantallaEventos" value="PantallaEventos" style="shape=umlBoundary;whiteSpace=wrap;html=1;strokeColor=#FF00FF;fillColor=#FFFFFF;strokeWidth=2.5;fontSize=17;fontColor=#171717;fontFamily=Arial;align=center;verticalAlign=middle;spacing=3;" vertex="1" parent="1">
+          <mxGeometry x="133" y="365" width="195" height="156" as="geometry"/>
+        </mxCell>
+        <mxCell id="ReporteReservas" value="ReporteReservas" style="shape=umlBoundary;whiteSpace=wrap;html=1;strokeColor=#FF00FF;fillColor=#FFFFFF;strokeWidth=2.5;fontSize=17;fontColor=#171717;fontFamily=Arial;align=center;verticalAlign=middle;spacing=3;" vertex="1" parent="1">
+          <mxGeometry x="527" y="365" width="195" height="156" as="geometry"/>
+        </mxCell>
+        <mxCell id="InterfazCampusFest" value="InterfazCampusFest" style="shape=umlBoundary;whiteSpace=wrap;html=1;strokeColor=#FF00FF;fillColor=#FFFFFF;strokeWidth=2.5;fontSize=17;fontColor=#171717;fontFamily=Arial;align=center;verticalAlign=middle;spacing=3;" vertex="1" parent="1">
+          <mxGeometry x="921" y="365" width="195" height="156" as="geometry"/>
+        </mxCell>
+        <mxCell id="ReporteAsistencias" value="ReporteAsistencias" style="shape=umlBoundary;whiteSpace=wrap;html=1;strokeColor=#FF00FF;fillColor=#FFFFFF;strokeWidth=2.5;fontSize=17;fontColor=#171717;fontFamily=Arial;align=center;verticalAlign=middle;spacing=3;" vertex="1" parent="1">
+          <mxGeometry x="1315" y="365" width="195" height="156" as="geometry"/>
+        </mxCell>
+        <mxCell id="PantallaEventoOrganizador" value="PantallaEventoOrganizador" style="shape=umlBoundary;whiteSpace=wrap;html=1;strokeColor=#FF00FF;fillColor=#FFFFFF;strokeWidth=2.5;fontSize=17;fontColor=#171717;fontFamily=Arial;align=center;verticalAlign=middle;spacing=3;" vertex="1" parent="1">
+          <mxGeometry x="1708" y="365" width="195" height="156" as="geometry"/>
+        </mxCell>
+        <mxCell id="CalculoDisponibilidad" value="CalculoDisponibilidad" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;strokeColor=#FF00FF;fillColor=#FFFFFF;strokeWidth=2.5;fontSize=17;fontColor=#171717;fontFamily=Arial;align=center;verticalAlign=middle;spacing=2;" vertex="1" parent="1">
+          <mxGeometry x="212" y="761" width="213" height="158" as="geometry"/>
+        </mxCell>
+        <mxCell id="GestiónReserva" value="GestiónReserva" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;strokeColor=#FF00FF;fillColor=#FFFFFF;strokeWidth=2.5;fontSize=17;fontColor=#171717;fontFamily=Arial;align=center;verticalAlign=middle;spacing=2;" vertex="1" parent="1">
+          <mxGeometry x="670" y="761" width="213" height="158" as="geometry"/>
+        </mxCell>
+        <mxCell id="GestiónAsistencia" value="GestiónAsistencia" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;strokeColor=#FF00FF;fillColor=#FFFFFF;strokeWidth=2.5;fontSize=17;fontColor=#171717;fontFamily=Arial;align=center;verticalAlign=middle;spacing=2;" vertex="1" parent="1">
+          <mxGeometry x="1128" y="761" width="213" height="158" as="geometry"/>
+        </mxCell>
+        <mxCell id="GestiónEvento" value="GestiónEvento" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;strokeColor=#FF00FF;fillColor=#FFFFFF;strokeWidth=2.5;fontSize=17;fontColor=#171717;fontFamily=Arial;align=center;verticalAlign=middle;spacing=2;" vertex="1" parent="1">
+          <mxGeometry x="1586" y="761" width="213" height="158" as="geometry"/>
+        </mxCell>
+        <mxCell id="Evento" value="Evento" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;strokeColor=#FF00FF;fillColor=#FFFFFF;strokeWidth=2.5;fontSize=19;fontColor=#171717;fontFamily=Arial;align=center;verticalAlign=middle;spacing=3;" vertex="1" parent="1">
+          <mxGeometry x="236" y="1096" width="165" height="158" as="geometry"/>
+        </mxCell>
+        <mxCell id="Reserva" value="Reserva" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;strokeColor=#FF00FF;fillColor=#FFFFFF;strokeWidth=2.5;fontSize=19;fontColor=#171717;fontFamily=Arial;align=center;verticalAlign=middle;spacing=3;" vertex="1" parent="1">
+          <mxGeometry x="694" y="1096" width="165" height="158" as="geometry"/>
+        </mxCell>
+        <mxCell id="Estudiante_entidad" value="Estudiante" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;strokeColor=#FF00FF;fillColor=#FFFFFF;strokeWidth=2.5;fontSize=19;fontColor=#171717;fontFamily=Arial;align=center;verticalAlign=middle;spacing=3;" vertex="1" parent="1">
+          <mxGeometry x="1745" y="1096" width="165" height="158" as="geometry"/>
+        </mxCell>
+        <mxCell id="Asistencia" value="Asistencia" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;strokeColor=#FF00FF;fillColor=#FFFFFF;strokeWidth=2.5;fontSize=19;fontColor=#171717;fontFamily=Arial;align=center;verticalAlign=middle;spacing=3;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="1320" width="165" height="158" as="geometry"/>
+        </mxCell>
+        <mxCell id="link_01" edge="1" parent="1" source="Estudiante_actor" target="InterfazCampusFest" style="html=1;edgeStyle=none;rounded=0;strokeWidth=2.2;strokeColor=#FF00FF;endArrow=none;startArrow=none;endFill=0;startFill=0;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="link_02" edge="1" parent="1" source="Estudiante_actor" target="PantallaEventos" style="html=1;edgeStyle=none;rounded=0;strokeWidth=2.2;strokeColor=#FF00FF;endArrow=none;startArrow=none;endFill=0;startFill=0;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="link_03" edge="1" parent="1" source="Organizador" target="InterfazCampusFest" style="html=1;edgeStyle=none;rounded=0;strokeWidth=2.2;strokeColor=#FF00FF;endArrow=none;startArrow=none;endFill=0;startFill=0;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="link_04" edge="1" parent="1" source="Organizador" target="PantallaEventoOrganizador" style="html=1;edgeStyle=none;rounded=0;strokeWidth=2.2;strokeColor=#FF00FF;endArrow=none;startArrow=none;endFill=0;startFill=0;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="link_05" edge="1" parent="1" source="Tiempo" target="GestiónReserva" style="html=1;edgeStyle=none;rounded=0;strokeWidth=2.2;strokeColor=#FF00FF;endArrow=none;startArrow=none;endFill=0;startFill=0;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="link_06" edge="1" parent="1" source="InterfazCampusFest" target="CalculoDisponibilidad" style="html=1;edgeStyle=none;rounded=0;strokeWidth=2.2;strokeColor=#FF00FF;endArrow=none;startArrow=none;endFill=0;startFill=0;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="link_07" edge="1" parent="1" source="InterfazCampusFest" target="GestiónReserva" style="html=1;edgeStyle=none;rounded=0;strokeWidth=2.2;strokeColor=#FF00FF;endArrow=none;startArrow=none;endFill=0;startFill=0;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="link_08" edge="1" parent="1" source="InterfazCampusFest" target="GestiónAsistencia" style="html=1;edgeStyle=none;rounded=0;strokeWidth=2.2;strokeColor=#FF00FF;endArrow=none;startArrow=none;endFill=0;startFill=0;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="link_09" edge="1" parent="1" source="InterfazCampusFest" target="GestiónEvento" style="html=1;edgeStyle=none;rounded=0;strokeWidth=2.2;strokeColor=#FF00FF;endArrow=none;startArrow=none;endFill=0;startFill=0;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="link_10" edge="1" parent="1" source="PantallaEventos" target="CalculoDisponibilidad" style="html=1;edgeStyle=none;rounded=0;strokeWidth=2.2;strokeColor=#FF00FF;endArrow=none;startArrow=none;endFill=0;startFill=0;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="link_11" edge="1" parent="1" source="PantallaEventos" target="GestiónReserva" style="html=1;edgeStyle=none;rounded=0;strokeWidth=2.2;strokeColor=#FF00FF;endArrow=none;startArrow=none;endFill=0;startFill=0;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="link_12" edge="1" parent="1" source="PantallaEventoOrganizador" target="GestiónAsistencia" style="html=1;edgeStyle=none;rounded=0;strokeWidth=2.2;strokeColor=#FF00FF;endArrow=none;startArrow=none;endFill=0;startFill=0;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="link_13" edge="1" parent="1" source="PantallaEventoOrganizador" target="GestiónEvento" style="html=1;edgeStyle=none;rounded=0;strokeWidth=2.2;strokeColor=#FF00FF;endArrow=none;startArrow=none;endFill=0;startFill=0;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="link_14" edge="1" parent="1" source="ReporteReservas" target="GestiónReserva" style="html=1;edgeStyle=none;rounded=0;strokeWidth=2.2;strokeColor=#FF00FF;endArrow=none;startArrow=none;endFill=0;startFill=0;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="link_15" edge="1" parent="1" source="ReporteAsistencias" target="GestiónAsistencia" style="html=1;edgeStyle=none;rounded=0;strokeWidth=2.2;strokeColor=#FF00FF;endArrow=none;startArrow=none;endFill=0;startFill=0;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="link_16" edge="1" parent="1" source="CalculoDisponibilidad" target="Evento" style="html=1;edgeStyle=none;rounded=0;strokeWidth=2.2;strokeColor=#FF00FF;endArrow=none;startArrow=none;endFill=0;startFill=0;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="link_17" edge="1" parent="1" source="CalculoDisponibilidad" target="Reserva" style="html=1;edgeStyle=none;rounded=0;strokeWidth=2.2;strokeColor=#FF00FF;endArrow=none;startArrow=none;endFill=0;startFill=0;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="link_18" edge="1" parent="1" source="GestiónReserva" target="Evento" style="html=1;edgeStyle=none;rounded=0;strokeWidth=2.2;strokeColor=#FF00FF;endArrow=none;startArrow=none;endFill=0;startFill=0;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="link_19" edge="1" parent="1" source="GestiónReserva" target="Reserva" style="html=1;edgeStyle=none;rounded=0;strokeWidth=2.2;strokeColor=#FF00FF;endArrow=none;startArrow=none;endFill=0;startFill=0;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="link_20" edge="1" parent="1" source="GestiónAsistencia" target="Evento" style="html=1;edgeStyle=none;rounded=0;strokeWidth=2.2;strokeColor=#FF00FF;endArrow=none;startArrow=none;endFill=0;startFill=0;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="link_21" edge="1" parent="1" source="GestiónAsistencia" target="Asistencia" style="html=1;edgeStyle=none;rounded=0;strokeWidth=2.2;strokeColor=#FF00FF;endArrow=none;startArrow=none;endFill=0;startFill=0;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="link_22" edge="1" parent="1" source="GestiónAsistencia" target="Estudiante_entidad" style="html=1;edgeStyle=none;rounded=0;strokeWidth=2.2;strokeColor=#FF00FF;endArrow=none;startArrow=none;endFill=0;startFill=0;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="link_23" edge="1" parent="1" source="GestiónEvento" target="Evento" style="html=1;edgeStyle=none;rounded=0;strokeWidth=2.2;strokeColor=#FF00FF;endArrow=none;startArrow=none;endFill=0;startFill=0;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="link_24" edge="1" parent="1" source="Evento" target="Reserva" style="html=1;edgeStyle=none;rounded=0;strokeWidth=2.2;strokeColor=#FF00FF;endArrow=none;startArrow=none;endFill=0;startFill=0;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="link_25" edge="1" parent="1" source="Evento" target="Asistencia" style="html=1;edgeStyle=none;rounded=0;strokeWidth=2.2;strokeColor=#FF00FF;endArrow=none;startArrow=none;endFill=0;startFill=0;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="link_26" edge="1" parent="1" source="Estudiante_entidad" target="Reserva" style="html=1;edgeStyle=none;rounded=0;strokeWidth=2.2;strokeColor=#FF00FF;endArrow=none;startArrow=none;endFill=0;startFill=0;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="link_27" edge="1" parent="1" source="Estudiante_entidad" target="Asistencia" style="html=1;edgeStyle=none;rounded=0;strokeWidth=2.2;strokeColor=#FF00FF;endArrow=none;startArrow=none;endFill=0;startFill=0;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="link_28" edge="1" parent="1" source="GestiónAsistencia" target="Reserva" style="html=1;edgeStyle=none;rounded=0;strokeWidth=2.2;strokeColor=#FF00FF;endArrow=none;startArrow=none;endFill=0;startFill=0;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

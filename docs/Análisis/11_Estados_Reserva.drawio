@@ -1,0 +1,43 @@
+<mxfile host="Electron" agent="CampusFest - Unillanos">
+  <diagram name="03 - Estados de Reserva" id="imported_10_2">
+    <mxGraphModel dx="1598" dy="889" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1530" pageHeight="850" background="#FFFFFF" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="t0001" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontColor=#1A1A1A;fontSize=23;fontFamily=Arial;fontStyle=1;" value="CAMPUSFEST  |  11 - Estados de Reserva" vertex="1">
+          <mxGeometry height="45" width="1460" x="38" y="14" as="geometry" />
+        </mxCell>
+        <mxCell id="t0002" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontColor=#555555;fontSize=14;fontFamily=Arial;" value="UNILLANOS  ·  Ingeniería de Software I  ·  Análisis de objetos (Schach, capítulo 13)" vertex="1">
+          <mxGeometry height="28" width="1460" x="38" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n0003" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF00FF;strokeWidth=3;fontSize=20;fontColor=#1A1A1A;fontFamily=Arial;" value="Pendiente" vertex="1">
+          <mxGeometry height="100" width="210" x="350" y="265" as="geometry" />
+        </mxCell>
+        <mxCell id="n0004" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF00FF;strokeWidth=3;fontSize=20;fontColor=#1A1A1A;fontFamily=Arial;" value="Confirmada" vertex="1">
+          <mxGeometry height="100" width="210" x="1020" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="n0005" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF00FF;strokeWidth=3;fontSize=20;fontColor=#1A1A1A;fontFamily=Arial;" value="Vencida" vertex="1">
+          <mxGeometry height="100" width="210" x="1020" y="415" as="geometry" />
+        </mxCell>
+        <mxCell id="n0006" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF00FF;strokeWidth=3;fontSize=20;fontColor=#1A1A1A;fontFamily=Arial;" value="Cancelada" vertex="1">
+          <mxGeometry height="100" width="210" x="630" y="605" as="geometry" />
+        </mxCell>
+        <mxCell id="e0007" edge="1" parent="1" source="n0003" style="html=1;rounded=0;edgeStyle=none;strokeColor=#FF00FF;strokeWidth=2.2;endArrow=classic;endFill=1;fontColor=#1A1A1A;fontFamily=Arial;fontSize=16;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.24;entryX=0;entryY=0.6;" target="n0004" value="Confirmar antes de 10 min">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e0008" edge="1" parent="1" source="n0003" style="html=1;rounded=0;edgeStyle=none;strokeColor=#FF00FF;strokeWidth=2.2;endArrow=classic;endFill=1;fontColor=#1A1A1A;fontFamily=Arial;fontSize=16;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.8;entryX=0;entryY=0.45;" target="n0005" value="Expiran 10 min sin confirmar">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e0009" edge="1" parent="1" source="n0003" style="html=1;rounded=0;edgeStyle=none;strokeColor=#FF00FF;strokeWidth=2.2;endArrow=classic;endFill=1;fontColor=#1A1A1A;fontFamily=Arial;fontSize=16;labelBackgroundColor=#FFFFFF;exitX=0.6;exitY=1;entryX=0.1;entryY=0;" target="n0006" value="Cancelar reserva">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t0010" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontColor=#1A1A1A;fontSize=20;fontFamily=Arial;fontStyle=1;" value="Confirmadas y pendientes vigentes ocupan cupo. Vencidas y canceladas NO ocupan cupo." vertex="1">
+          <mxGeometry height="50" width="1190" x="20" y="705" as="geometry" />
+        </mxCell>
+        <mxCell id="t0011" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontColor=#555555;fontSize=16;fontFamily=Arial;" value="Fuente: reglas de CampusFest y reto 5. La transición Pendiente → Cancelada representa la acción de cancelar; el enunciado no especifica todos los estados de origen posibles." vertex="1">
+          <mxGeometry height="60" width="1458" x="38" y="755" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
